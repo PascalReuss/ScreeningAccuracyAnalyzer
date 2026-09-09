@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="controls">
+  <span class="kpi">Conclusions analysed: <strong>{{ result.total_records }}</strong></span>
+  <span class="kpi">Negative rate:
+    <strong>{{ '%.0f%%' % (result.overall.negative_rate * 100) }}</strong></span>
+  <span class="kpi">Needs human review: <strong>{{ result.needs_human_review }}</strong></span>
+  <span class="kpi muted">
+    source: {{ meta.source }} &middot; mode: {{ meta.mode }} &middot;
+    correlation-id: {{ meta.correlation_id }}
+  </span>
+  <span class="links">
+    {% if deep %}
+      <a href="{{ url_for('insights.insights') }}">current-step view</a>
+    {% else %}
+      <a href="{{ url_for('insights.insights', deep='1') }}">deep view (full history)</a>
+    {% endif %}
+    &middot;
+    <a href="{{ url_for('insights.insights', deep='1' if deep else None, refresh='1') }}">refresh</a>
+  </span>
+</section>
+
+<section class="grid">
+  <div class="card">{{ figures.decisions | safe }}</div>
+  <div class="card">{{ figures.reasons | safe }}</div>
+  <div class="card wide">{{ figures.by_job | safe }}</div>
+  <div class="card wide">{{ figures.by_step | safe }}</div>
+</section>
+
+<section class="card wide">
+  <h2>Rejection reasons by pipeline step</h2>
+  <table>
+    <thead>
+      <tr><th>Step</th><th>Total</th><th>Negative</th><th>Neg. rate</th><th>Top reasons</th></tr>
+    </thead>
+    <tbody>
+      {% for step, stats in result.by_step.items() | sort(attribute='1.total', reverse=true) %}
+      <tr>
+        <td>{{ step }}</td>
+        <td>{{ stats.total }}</td>
+        <td>{{ stats.counts['negative'] }}</td>
+        <td>{{ '%.0f%%' % (stats.negative_rate * 100) }}</td>
+        <td>
+          {% for reason, count in stats.top_rejection_reasons(3) %}
+            <span class="tag">{{ reason }} ({{ count }})</span>
+          {% else %}&mdash;{% endfor %}
+        </td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</section>
+{% endblock %}

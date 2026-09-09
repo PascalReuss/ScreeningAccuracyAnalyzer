@@ -1,0 +1,20 @@
+{
+  "status": 200,
+  "message": "Success",
+  "data": {
+    "Total": 3,
+    "TotalPage": 2,
+    "JobApplications": [
+      {
+        "StepName": "Pre-Screening",
+        "StepCategory": "PreScreening",
+        "HumanReview": false,
+        "PaulDecision": "NegativeDecision",
+        "PaulDecisionSummary": "Does not meet the minimum years of experience.",
+        "Application": { "ID": "JP-1003" },
+        "Person": { "PersonSlug": "carol-003", "FullName": "Carol C" },
+        "Job": { "PaulsjobJobID": 999, "JobPositionTitle": "Data Analyst" }
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "status": 200,
+  "message": "Success",
+  "data": {
+    "Total": 3,
+    "TotalPage": 2,
+    "JobApplications": [
+      {
+        "StepName": "AI Voice Interview",
+        "StepCategory": "AIVoiceInterview",
+        "HumanReview": true,
+        "AgentReview": false,
+        "PaulDecision": "NegativeDecision",
+        "PaulDecisionSummary": "Does not meet the minimum years of experience. Candidate has 1 year, role needs 3.",
+        "Comment": "",
+        "Application": { "ID": "JP-1001", "ApplicationDate": "2026-08-01T09:00:00Z" },
+        "Person": { "PersonSlug": "alice-001", "FullName": "Alice A" },
+        "Job": { "PaulsjobJobID": 12345, "JobPositionTitle": "Backend Engineer" }
+      },
+      {
+        "StepName": "Pre-Screening",
+        "StepCategory": "PreScreening",
+        "HumanReview": false,
+        "PaulDecision": "PositiveDecision",
+        "PaulDecisionSummary": "Meets all mandatory requirements; strong Python background.",
+        "Application": { "ID": "JP-1002" },
+        "Person": { "PersonSlug": "bob-002", "FullName": "Bob B" },
+        "Job": { "PaulsjobJobID": 12345, "JobPositionTitle": "Backend Engineer" }
+      }
+    ]
+  }
+}

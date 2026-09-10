@@ -99,6 +99,9 @@ python demo/generate.py --persons 60 --seed 42   # writes demo/applications.json
 
 Deterministic; regenerate after changing the knobs at the top of the script.
 
+Screenshots of both dashboards running against this demo dataset are in the
+[`demo/`](demo/) folder.
+
 ## API endpoints
 
 Auth: header `x-company-api-key: <PAULSJOB_API_KEY>` on every request

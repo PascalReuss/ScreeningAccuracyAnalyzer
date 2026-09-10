@@ -91,6 +91,26 @@ def rejection_reasons(result: AnalysisResult, n: int = 10) -> str:
     return _fragment(fig)
 
 
+def positive_signals(result: AnalysisResult, n: int = 10) -> str:
+    items = result.top_positive_signals(n)
+    if not items:
+        return _empty("No positive signals found")
+    labels, values = zip(*items)
+    fig = go.Figure(
+        go.Bar(
+            x=list(values),
+            y=[label.capitalize() for label in labels],
+            orientation="h",
+            marker_color=_COLORS[POSITIVE],
+        )
+    )
+    fig.update_layout(
+        title=f"Top {len(items)} positive signals", xaxis_title="Occurrences"
+    )
+    fig.update_yaxes(autorange="reversed")
+    return _fragment(fig)
+
+
 def by_group(groups: dict[str, GroupStats], title: str, limit: int = 15) -> str:
     ordered = sorted(groups.items(), key=lambda kv: kv[1].total, reverse=True)[:limit]
     if not ordered:

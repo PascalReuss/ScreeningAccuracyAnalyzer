@@ -219,8 +219,9 @@ never break a request that would otherwise succeed.
 - Any other unhandled exception → generic **HTTP 500** page; the traceback goes to
   the server log, not the browser. In `flask run --debug` the interactive debugger
   still takes over for unexpected errors.
-- All three render `templates/error.html` in the normal layout with a link back to
-  the dashboard.
+- An unknown URL → **HTTP 404** page pointing at the two dashboards.
+- All of these render `templates/error.html` in the normal layout with a link back
+  to the dashboard.
 
 Covered by `tests/test_cache.py`, `tests/test_config.py`, `tests/test_routes.py`,
 and the client tests in `tests/test_api_client.py`.
@@ -252,9 +253,9 @@ and the client tests in `tests/test_api_client.py`.
 - **Prescreening question scores are not used**, though the endpoint exists.
 - **Demo data is synthetic.** Distributions are plausible but hand-tuned; the demo
   score-vs-decision correlation is baked in by the generator, not observed.
-- **No pandas/numpy yet.** Aggregation is plain Python and `statistics`; fine at the
-  current data size, but the project's stated stack anticipates pandas for heavier
-  slicing.
+- **Aggregation is plain Python** (`collections`, `statistics`) rather than
+  pandas/numpy. Deliberate at this data size and it keeps the analysis layer
+  dependency-free; a much larger tenant or heavier slicing would justify pandas.
 
 ## Possible next steps
 

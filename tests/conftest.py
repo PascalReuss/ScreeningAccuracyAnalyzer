@@ -30,6 +30,16 @@ def client(config):
 
 
 @pytest.fixture
+def demo_client(tmp_path):
+    from app import create_app
+
+    cfg = Config(api_key="demo", cache_dir=str(tmp_path / "cache"), demo_mode=True)
+    app = create_app(cfg)
+    app.config["PROPAGATE_EXCEPTIONS"] = False
+    return app.test_client()
+
+
+@pytest.fixture
 def load_fixture():
     def _load(name: str):
         return json.loads((FIXTURES / name).read_text("utf-8"))

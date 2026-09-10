@@ -40,6 +40,15 @@ def _handle_demo_missing(exc: DemoDataMissing) -> tuple[str, int]:
     return _render_error("Demo data is not available", str(exc), 500)
 
 
+@bp.app_errorhandler(404)
+def _handle_not_found(exc: object) -> tuple[str, int]:
+    return _render_error(
+        "Page not found",
+        "That page does not exist. The dashboards live at / and /assessments.",
+        404,
+    )
+
+
 @bp.app_errorhandler(500)
 def _handle_internal(exc: object) -> tuple[str, int]:
     logger.exception("unhandled error rendering a page")
@@ -74,6 +83,7 @@ def insights() -> str:
         figures={
             "decisions": charts.decision_breakdown(result),
             "reasons": charts.rejection_reasons(result),
+            "signals": charts.positive_signals(result),
             "by_job": charts.by_group(result.by_job, "Conclusions by job"),
             "by_step": charts.by_group(result.by_step, "Conclusions by pipeline step"),
             "agreement": charts.human_agreement(result),

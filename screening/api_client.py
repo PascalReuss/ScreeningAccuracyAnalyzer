@@ -17,6 +17,10 @@ logger = logging.getLogger(__name__)
 
 RETRY_STATUS = {429, 500, 502, 503, 504}
 
+# hard ceiling on pages/cursor hops per call, so a misbehaving API (a cursor that
+# never clears, an ever-growing TotalPage) cannot loop forever
+MAX_PAGES = 1000
+
 
 class ScreeningAPIError(RuntimeError):
     def __init__(self, status_code: int, message: str) -> None:
@@ -83,7 +87,12 @@ class ScreeningClient:
                 raise ScreeningAPIError(resp.status_code, _error_message(resp))
             if not resp.content:
                 return {}
-            return resp.json()
+            try:
+                return resp.json()
+            except ValueError as exc:
+                raise ScreeningAPIError(
+                    resp.status_code, f"malformed JSON in response body: {exc}"
+                ) from exc
 
         raise ScreeningAPIError(0, f"request failed after retries: {last_exc}")
 
@@ -94,16 +103,17 @@ class ScreeningClient:
     ) -> Iterator[dict[str, Any]]:
         payload = dict(payload)
         payload["PerPage"] = per_page
-        page = 1
-        while True:
+        for page in range(1, MAX_PAGES + 1):
             payload["Page"] = page
             body = self._request("POST", path, json=payload).get("data", {}) or {}
             items = body.get(data_key) or []
             yield from items
-            total_pages = body.get("TotalPage") or 0
-            if not items or page >= total_pages:
+            total_pages = body.get("TotalPage")
+            if not items:
                 return
-            page += 1
+            if total_pages and page >= total_pages:
+                return
+        logger.warning("stopped paginating %s after %d pages", path, MAX_PAGES)
 
     def _paginate_cursor(
         self,
@@ -116,7 +126,7 @@ class ScreeningClient:
     ) -> Iterator[dict[str, Any]]:
         payload = dict(payload or {})
         params = dict(params or {})
-        while True:
+        for _ in range(MAX_PAGES):
             if method == "POST":
                 body = self._request("POST", path, json=payload).get("data", {}) or {}
             else:
@@ -130,6 +140,7 @@ class ScreeningClient:
                 payload["LastEvaluatedKey"] = cursor
             else:
                 params["LastEvaluatedKey"] = cursor
+        logger.warning("stopped paginating %s after %d cursor hops", path, MAX_PAGES)
 
     # -- resources --------------------------------------------------------
 
@@ -169,11 +180,44 @@ class ScreeningClient:
         )
 
     def get_person_assessments(self, person_slug: str) -> list[dict[str, Any]]:
+        """GET /company/person/{slug}/assessments -> Assessment[] (no pagination)."""
         return (
             self._request(
                 "GET", f"/company/person/{person_slug}/assessments"
             ).get("data")
             or []
+        )
+
+    def iter_assessments(
+        self, person_slugs: Iterable[str], *, continue_on_error: bool = True
+    ) -> Iterator[tuple[str, list[dict[str, Any]]]]:
+        """Fan out get_person_assessments over many candidates.
+
+        There is no company-wide assessments endpoint, so this is one request per
+        slug. Yields ``(person_slug, Assessment[])``. With ``continue_on_error``
+        a per-candidate API failure is logged and skipped rather than aborting
+        the whole sweep.
+        """
+        for slug in person_slugs:
+            try:
+                yield slug, self.get_person_assessments(slug)
+            except ScreeningAPIError:
+                if not continue_on_error:
+                    raise
+                logger.exception("skipping assessments for %s", slug)
+
+    def iter_interviews(
+        self, search_payload: dict[str, Any] | None = None
+    ) -> Iterator[dict[str, Any]]:
+        """POST /recruiting/interviews/search-interviews -> InterviewSearchListData[].
+
+        Each hit carries its embedded ``ScoreCards`` (interview scorecards), so
+        this needs no per-interview follow-up call.
+        """
+        yield from self._paginate_pages(
+            "/recruiting/interviews/search-interviews",
+            search_payload or {},
+            data_key="Interviews",
         )
 
 

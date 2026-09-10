@@ -1,0 +1,115 @@
+{% extends "base.html" %}
+
+{% block title %}Assessments &mdash; Screening Accuracy Analyzer{% endblock %}
+
+{% block content %}
+<section class="controls">
+  <span class="kpi">Assessments analysed: <strong>{{ analysis.total_records }}</strong></span>
+  <span class="kpi">Candidates with assessments: <strong>{{ analysis.candidates }}</strong></span>
+  <span class="kpi">Mean score:
+    <strong>{% if analysis.mean_score is not none %}{{ '%.1f' % analysis.mean_score }}{% else %}&mdash;{% endif %}</strong></span>
+  <span class="kpi muted">
+    source: {{ meta.source }} &middot;
+    candidates queried: {{ meta.candidates_queried }} &middot;
+    correlation-id: {{ meta.correlation_id }}
+  </span>
+  <span class="links">
+    <a href="{{ url_for('insights.assessments', refresh='1') }}">refresh</a>
+  </span>
+</section>
+
+<section class="grid">
+  <div class="card">{{ figures.scores | safe }}</div>
+  <div class="card">{{ figures.pass_rate | safe }}</div>
+  <div class="card">{{ figures.by_decision | safe }}</div>
+  <div class="card">{{ figures.by_job | safe }}</div>
+</section>
+
+<section class="card wide">
+  <h2>Assessment vs. AI decision disagreements</h2>
+  <p class="muted">
+    Candidates Paul rejected who passed their assessment, or advanced who failed &mdash;
+    ordered by how far the score sits from the passing mark.
+  </p>
+  {% if analysis.disagreements %}
+  <table>
+    <thead>
+      <tr><th>Candidate</th><th>Job</th><th>Assessment</th><th>Score</th>
+        <th>Passing</th><th>AI decision</th><th>Conflict</th></tr>
+    </thead>
+    <tbody>
+      {% for d in analysis.disagreements %}
+      <tr>
+        <td>{{ d.person_slug }}</td>
+        <td>{{ d.job_title or '—' }}</td>
+        <td>{{ d.type }}</td>
+        <td>{{ '%.0f' % d.score }}</td>
+        <td>{{ '%.0f' % d.passing_score }}</td>
+        <td>{{ d.ai_decision | capitalize }}</td>
+        <td>
+          {% if d.kind == 'rejected_but_passed' %}
+            <span class="tag">rejected but passed</span>
+          {% else %}
+            <span class="tag">advanced but failed</span>
+          {% endif %}
+        </td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  {% else %}<p>No disagreements &mdash; the AI decision and assessment outcome line up for every graded candidate.</p>{% endif %}
+</section>
+
+<section class="card wide">
+  <h2>Assessments by job</h2>
+  <table>
+    <thead>
+      <tr><th>Job</th><th>Total</th><th>Completed</th><th>Mean</th><th>Pass rate</th></tr>
+    </thead>
+    <tbody>
+      {% for name, stats in analysis.by_job.items() | sort(attribute='1.total', reverse=true) %}
+      <tr>
+        <td>{{ name }}</td>
+        <td>{{ stats.total }}</td>
+        <td>{{ stats.completed }}</td>
+        <td>{{ '%.1f' % stats.mean_score if stats.mean_score is not none else '—' }}</td>
+        <td>
+          {% if stats.pass_rate is not none %}
+            {{ '%.0f%%' % (stats.pass_rate * 100) }} ({{ stats.passed }}/{{ stats.graded }})
+          {% else %}&mdash;{% endif %}
+        </td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</section>
+
+<section class="card wide">
+  <h2>Assessment types</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Type</th><th>Total</th><th>Completed</th>
+        <th>Mean</th><th>Min</th><th>Max</th><th>Pass rate</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for name, stats in analysis.by_type.items() | sort(attribute='1.total', reverse=true) %}
+      <tr>
+        <td>{{ name }}</td>
+        <td>{{ stats.total }}</td>
+        <td>{{ stats.completed }}</td>
+        <td>{{ '%.1f' % stats.mean_score if stats.mean_score is not none else '—' }}</td>
+        <td>{{ '%.1f' % stats.min_score if stats.min_score is not none else '—' }}</td>
+        <td>{{ '%.1f' % stats.max_score if stats.max_score is not none else '—' }}</td>
+        <td>
+          {% if stats.pass_rate is not none %}
+            {{ '%.0f%%' % (stats.pass_rate * 100) }} ({{ stats.passed }}/{{ stats.graded }})
+          {% else %}&mdash;{% endif %}
+        </td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</section>
+{% endblock %}

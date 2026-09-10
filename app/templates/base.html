@@ -11,6 +11,11 @@
   <header>
     <h1>Screening Accuracy Analyzer</h1>
     <p class="tagline">Paul's Job &mdash; AI candidate-screening decisions</p>
+    <nav class="links">
+      <a href="{{ url_for('insights.insights') }}">Screening decisions</a>
+      &middot;
+      <a href="{{ url_for('insights.assessments') }}">Assessments</a>
+    </nav>
   </header>
   <main>
     {% block content %}{% endblock %}

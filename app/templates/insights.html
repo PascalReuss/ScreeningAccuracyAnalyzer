@@ -6,6 +6,11 @@
   <span class="kpi">Negative rate:
     <strong>{{ '%.0f%%' % (result.overall.negative_rate * 100) }}</strong></span>
   <span class="kpi">Needs human review: <strong>{{ result.needs_human_review }}</strong></span>
+  {% if result.agreement.agreement_rate is not none %}
+  <span class="kpi">Human agreement:
+    <strong>{{ '%.0f%%' % (result.agreement.agreement_rate * 100) }}</strong>
+    ({{ result.agreement.agree }}/{{ result.agreement.reviewed }})</span>
+  {% endif %}
   <span class="kpi muted">
     source: {{ meta.source }} &middot; mode: {{ meta.mode }} &middot;
     correlation-id: {{ meta.correlation_id }}
@@ -26,6 +31,47 @@
   <div class="card">{{ figures.reasons | safe }}</div>
   <div class="card wide">{{ figures.by_job | safe }}</div>
   <div class="card wide">{{ figures.by_step | safe }}</div>
+  <div class="card">{{ figures.agreement | safe }}</div>
+  <div class="card">{{ figures.opt_out | safe }}</div>
+  <div class="card wide">{{ figures.over_time | safe }}</div>
+</section>
+
+<section class="card wide">
+  <h2>AI vs. human review</h2>
+  <p class="muted">
+    {{ result.agreement.human_review_flag }} conclusions flagged for human review,
+    {{ result.agreement.agent_review_flag }} for agent review,
+    {{ result.agreement.reviewed }} with a recorded human verdict.
+  </p>
+  {% if result.agreement.confusion_rows() %}
+  <table>
+    <thead><tr><th>Paul's decision</th><th>Human's decision</th><th>Count</th><th></th></tr></thead>
+    <tbody>
+      {% for ai, human, count in result.agreement.confusion_rows() %}
+      <tr>
+        <td>{{ ai | capitalize }}</td>
+        <td>{{ human | capitalize }}</td>
+        <td>{{ count }}</td>
+        <td>{% if ai == human %}<span class="tag">agree</span>{% else %}<span class="tag">override</span>{% endif %}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  {% else %}<p>&mdash;</p>{% endif %}
+</section>
+
+<section class="card wide">
+  <h2>Opt-outs by pipeline step</h2>
+  {% if result.opt_out_by_step %}
+  <table>
+    <thead><tr><th>Step</th><th>Opt-outs</th></tr></thead>
+    <tbody>
+      {% for step, count in result.opt_out_by_step.most_common() %}
+      <tr><td>{{ step }}</td><td>{{ count }}</td></tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  {% else %}<p>&mdash;</p>{% endif %}
 </section>
 
 <section class="card wide">

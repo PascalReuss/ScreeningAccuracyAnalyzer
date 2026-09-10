@@ -1,0 +1,1569 @@
+{
+  "xavier-diaz-001": [
+    {
+      "ID": "as-001-1",
+      "Type": "culture_fit",
+      "Status": "completed",
+      "AssessmentScore": 58,
+      "AssessmentDetails": {
+        "PassingScore": 50,
+        "SkillsEvaluated": [
+          "Collaboration",
+          "Ownership",
+          "Communication"
+        ],
+        "DifficultyLevel": "Hard",
+        "TimeSpentMinutes": 32
+      },
+      "AssessedAt": "2026-08-02T14:00:00Z"
+    },
+    {
+      "ID": "as-001-2",
+      "Type": "technical_assessment",
+      "Status": "completed",
+      "AssessmentScore": 75,
+      "AssessmentDetails": {
+        "PassingScore": 70,
+        "SkillsEvaluated": [
+          "Python",
+          "SQL",
+          "System design"
+        ],
+        "DifficultyLevel": "Hard",
+        "TimeSpentMinutes": 54
+      },
+      "AssessedAt": "2026-08-02T14:00:00Z"
+    },
+    {
+      "ID": "as-001-3",
+      "Type": "cognitive_assessment",
+      "Status": "completed",
+      "AssessmentScore": 45,
+      "AssessmentDetails": {
+        "PassingScore": 65,
+        "SkillsEvaluated": [
+          "Logical reasoning",
+          "Numerical",
+          "Verbal"
+        ],
+        "DifficultyLevel": "Easy",
+        "TimeSpentMinutes": 68
+      },
+      "AssessedAt": "2026-08-02T14:00:00Z"
+    }
+  ],
+  "mia-fisher-002": [
+    {
+      "ID": "as-002-1",
+      "Type": "cognitive_assessment",
+      "Status": "completed",
+      "AssessmentScore": 60,
+      "AssessmentDetails": {
+        "PassingScore": 65,
+        "SkillsEvaluated": [
+          "Logical reasoning",
+          "Numerical",
+          "Verbal"
+        ],
+        "DifficultyLevel": "Hard",
+        "TimeSpentMinutes": 36
+      },
+      "AssessedAt": "2026-08-03T14:00:00Z"
+    }
+  ],
+  "david-meyer-005": [
+    {
+      "ID": "as-005-1",
+      "Type": "technical_assessment",
+      "Status": "completed",
+      "AssessmentScore": 56,
+      "AssessmentDetails": {
+        "PassingScore": 70,
+        "SkillsEvaluated": [
+          "Python",
+          "SQL",
+          "System design"
+        ],
+        "DifficultyLevel": "Intermediate",
+        "TimeSpentMinutes": 44
+      },
+      "AssessedAt": "2026-08-06T14:00:00Z"
+    },
+    {
+      "ID": "as-005-2",
+      "Type": "cognitive_assessment",
+      "Status": "completed",
+      "AssessmentScore": 64,
+      "AssessmentDetails": {
+        "PassingScore": 65,
+        "SkillsEvaluated": [
+          "Logical reasoning",
+          "Numerical",
+          "Verbal"
+        ],
+        "DifficultyLevel": "Hard",
+        "TimeSpentMinutes": 64
+      },
+      "AssessedAt": "2026-08-06T14:00:00Z"
+    }
+  ],
+  "uma-hughes-006": [
+    {
+      "ID": "as-006-1",
+      "Type": "cognitive_assessment",
+      "Status": "completed",
+      "AssessmentScore": 69,
+      "AssessmentDetails": {
+        "PassingScore": 65,
+        "SkillsEvaluated": [
+          "Logical reasoning",
+          "Numerical",
+          "Verbal"
+        ],
+        "DifficultyLevel": "Intermediate",
+        "TimeSpentMinutes": 28
+      },
+      "AssessedAt": "2026-08-07T14:00:00Z"
+    },
+    {
+      "ID": "as-006-2",
+      "Type": "technical_assessment",
+      "Status": "completed",
+      "AssessmentScore": 48,
+      "AssessmentDetails": {
+        "PassingScore": 70,
+        "SkillsEvaluated": [
+          "Python",
+          "SQL",
+          "System design"
+        ],
+        "DifficultyLevel": "Hard",
+        "TimeSpentMinutes": 54
+      },
+      "AssessedAt": "2026-08-07T14:00:00Z"
+    },
+    {
+      "ID": "as-006-3",
+      "Type": "language_assessment",
+      "Status": "completed",
+      "AssessmentScore": 30,
+      "AssessmentDetails": {
+        "PassingScore": 60,
+        "SkillsEvaluated": [
+          "Comprehension",
+          "Fluency",
+          "Grammar"
+        ],
+        "DifficultyLevel": "Intermediate",
+        "TimeSpentMinutes": 43
+      },
+      "AssessedAt": "2026-08-07T14:00:00Z"
+    }
+  ],
+  "heidi-evans-007": [
+    {
+      "ID": "as-007-1",
+      "Type": "culture_fit",
+      "Status": "completed",
+      "AssessmentScore": 41,
+      "AssessmentDetails": {
+        "PassingScore": 50,
+        "SkillsEvaluated": [
+          "Collaboration",
+          "Ownership",
+          "Communication"
+        ],
+        "DifficultyLevel": "Hard",
+        "TimeSpentMinutes": 49
+      },
+      "AssessedAt": "2026-08-08T14:00:00Z"
+    },
+    {
+      "ID": "as-007-2",
+      "Type": "cognitive_assessment",
+      "Status": "completed",
+      "AssessmentScore": 83,
+      "AssessmentDetails": {
+        "PassingScore": 65,
+        "SkillsEvaluated": [
+          "Logical reasoning",
+          "Numerical",
+          "Verbal"
+        ],
+        "DifficultyLevel": "Easy",
+        "TimeSpentMinutes": 63
+      },
+      "AssessedAt": "2026-08-08T14:00:00Z"
+    },
+    {
+      "ID": "as-007-3",
+      "Type": "technical_assessment",
+      "Status": "completed",
+      "AssessmentScore": 51,
+      "AssessmentDetails": {
+        "PassingScore": 70,
+        "SkillsEvaluated": [
+          "Python",
+          "SQL",
+          "System design"
+        ],
+        "DifficultyLevel": "Hard",
+        "TimeSpentMinutes": 54
+      },
+      "AssessedAt": "2026-08-08T14:00:00Z"
+    }
+  ],
+  "ivan-fisher-009": [
+    {
+      "ID": "as-009-1",
+      "Type": "language_assessment",
+      "Status": "pending",
+      "AssessmentScore": null,
+      "AssessmentDetails": {
+        "PassingScore": 60,
+        "SkillsEvaluated": [
+          "Comprehension",
+          "Fluency",
+          "Grammar"
+        ],
+        "DifficultyLevel": "Hard",
+        "TimeSpentMinutes": 20
+      },
+      "AssessedAt": "2026-08-10T14:00:00Z"
+    },
+    {
+      "ID": "as-009-2",
+      "Type": "cognitive_assessment",
+      "Status": "completed",
+      "AssessmentScore": 71,
+      "AssessmentDetails": {
+        "PassingScore": 65,
+        "SkillsEvaluated": [
+          "Logical reasoning",
+          "Numerical",
+          "Verbal"
+        ],
+        "DifficultyLevel": "Intermediate",
+        "TimeSpentMinutes": 73
+      },
+      "AssessedAt": "2026-08-10T14:00:00Z"
+    }
+  ],
+  "mia-jones-010": [
+    {
+      "ID": "as-010-1",
+      "Type": "language_assessment",
+      "Status": "completed",
+      "AssessmentScore": 56,
+      "AssessmentDetails": {
+        "PassingScore": 60,
+        "SkillsEvaluated": [
+          "Comprehension",
+          "Fluency",
+          "Grammar"
+        ],
+        "DifficultyLevel": "Intermediate",
+        "TimeSpentMinutes": 55
+      },
+      "AssessedAt": "2026-08-11T14:00:00Z"
+    }
+  ],
+  "frank-ivanov-011": [
+    {
+      "ID": "as-011-1",
+      "Type": "cognitive_assessment",
+      "Status": "completed",
+      "AssessmentScore": 60,
+      "AssessmentDetails": {
+        "PassingScore": 65,
+        "SkillsEvaluated": [
+          "Logical reasoning",
+          "Numerical",
+          "Verbal"
+        ],
+        "DifficultyLevel": "Hard",
+        "TimeSpentMinutes": 48
+      },
+      "AssessedAt": "2026-08-12T14:00:00Z"
+    }
+  ],
+  "david-hughes-012": [
+    {
+      "ID": "as-012-1",
+      "Type": "technical_assessment",
+      "Status": "pending",
+      "AssessmentScore": null,
+      "AssessmentDetails": {
+        "PassingScore": 70,
+        "SkillsEvaluated": [
+          "Python",
+          "SQL",
+          "System design"
+        ],
+        "DifficultyLevel": "Intermediate",
+        "TimeSpentMinutes": 24
+      },
+      "AssessedAt": "2026-08-13T14:00:00Z"
+    },
+    {
+      "ID": "as-012-2",
+      "Type": "culture_fit",
+      "Status": "completed",
+      "AssessmentScore": 44,
+      "AssessmentDetails": {
+        "PassingScore": 50,
+        "SkillsEvaluated": [
+          "Collaboration",
+          "Ownership",
+          "Communication"
+        ],
+        "DifficultyLevel": "Intermediate",
+        "TimeSpentMinutes": 62
+      },
+      "AssessedAt": "2026-08-13T14:00:00Z"
+    },
+    {
+      "ID": "as-012-3",
+      "Type": "cognitive_assessment",
+      "Status": "completed",
+      "AssessmentScore": 34,
+      "AssessmentDetails": {
+        "PassingScore": 65,
+        "SkillsEvaluated": [
+          "Logical reasoning",
+          "Numerical",
+          "Verbal"
+        ],
+        "DifficultyLevel": "Hard",
+        "TimeSpentMinutes": 56
+      },
+      "AssessedAt": "2026-08-13T14:00:00Z"
+    }
+  ],
+  "sybil-hughes-013": [
+    {
+      "ID": "as-013-1",
+      "Type": "technical_assessment",
+      "Status": "completed",
+      "AssessmentScore": 51,
+      "AssessmentDetails": {
+        "PassingScore": 70,
+        "SkillsEvaluated": [
+          "Python",
+          "SQL",
+          "System design"
+        ],
+        "DifficultyLevel": "Hard",
+        "TimeSpentMinutes": 41
+      },
+      "AssessedAt": "2026-08-14T14:00:00Z"
+    },
+    {
+      "ID": "as-013-2",
+      "Type": "cognitive_assessment",
+      "Status": "completed",
+      "AssessmentScore": 63,
+      "AssessmentDetails": {
+        "PassingScore": 65,
+        "SkillsEvaluated": [
+          "Logical reasoning",
+          "Numerical",
+          "Verbal"
+        ],
+        "DifficultyLevel": "Hard",
+        "TimeSpentMinutes": 48
+      },
+      "AssessedAt": "2026-08-14T14:00:00Z"
+    },
+    {
+      "ID": "as-013-3",
+      "Type": "culture_fit",
+      "Status": "completed",
+      "AssessmentScore": 62,
+      "AssessmentDetails": {
+        "PassingScore": 50,
+        "SkillsEvaluated": [
+          "Collaboration",
+          "Ownership",
+          "Communication"
+        ],
+        "DifficultyLevel": "Easy",
+        "TimeSpentMinutes": 37
+      },
+      "AssessedAt": "2026-08-14T14:00:00Z"
+    }
+  ],
+  "liam-hughes-015": [
+    {
+      "ID": "as-015-1",
+      "Type": "technical_assessment",
+      "Status": "completed",
+      "AssessmentScore": 69,
+      "AssessmentDetails": {
+        "PassingScore": 70,
+        "SkillsEvaluated": [
+          "Python",
+          "SQL",
+          "System design"
+        ],
+        "DifficultyLevel": "Intermediate",
+        "TimeSpentMinutes": 64
+      },
+      "AssessedAt": "2026-08-16T14:00:00Z"
+    },
+    {
+      "ID": "as-015-2",
+      "Type": "language_assessment",
+      "Status": "pending",
+      "AssessmentScore": null,
+      "AssessmentDetails": {
+        "PassingScore": 60,
+        "SkillsEvaluated": [
+          "Comprehension",
+          "Fluency",
+          "Grammar"
+        ],
+        "DifficultyLevel": "Hard",
+        "TimeSpentMinutes": 62
+      },
+      "AssessedAt": "2026-08-16T14:00:00Z"
+    }
+  ],
+  "zane-patel-016": [
+    {
+      "ID": "as-016-1",
+      "Type": "technical_assessment",
+      "Status": "completed",
+      "AssessmentScore": 41,
+      "AssessmentDetails": {
+        "PassingScore": 70,
+        "SkillsEvaluated": [
+          "Python",
+          "SQL",
+          "System design"
+        ],
+        "DifficultyLevel": "Hard",
+        "TimeSpentMinutes": 74
+      },
+      "AssessedAt": "2026-08-17T14:00:00Z"
+    }
+  ],
+  "trent-fisher-017": [
+    {
+      "ID": "as-017-1",
+      "Type": "language_assessment",
+      "Status": "completed",
+      "AssessmentScore": 40,
+      "AssessmentDetails": {
+        "PassingScore": 60,
+        "SkillsEvaluated": [
+          "Comprehension",
+          "Fluency",
+          "Grammar"
+        ],
+        "DifficultyLevel": "Hard",
+        "TimeSpentMinutes": 40
+      },
+      "AssessedAt": "2026-08-18T14:00:00Z"
+    },
+    {
+      "ID": "as-017-2",
+      "Type": "cognitive_assessment",
+      "Status": "pending",
+      "AssessmentScore": null,
+      "AssessmentDetails": {
+        "PassingScore": 65,
+        "SkillsEvaluated": [
+          "Logical reasoning",
+          "Numerical",
+          "Verbal"
+        ],
+        "DifficultyLevel": "Easy",
+        "TimeSpentMinutes": 62
+      },
+      "AssessedAt": "2026-08-18T14:00:00Z"
+    },
+    {
+      "ID": "as-017-3",
+      "Type": "technical_assessment",
+      "Status": "completed",
+      "AssessmentScore": 65,
+      "AssessmentDetails": {
+        "PassingScore": 70,
+        "SkillsEvaluated": [
+          "Python",
+          "SQL",
+          "System design"
+        ],
+        "DifficultyLevel": "Easy",
+        "TimeSpentMinutes": 36
+      },
+      "AssessedAt": "2026-08-18T14:00:00Z"
+    }
+  ],
+  "olivia-evans-018": [
+    {
+      "ID": "as-018-1",
+      "Type": "technical_assessment",
+      "Status": "completed",
+      "AssessmentScore": 59,
+      "AssessmentDetails": {
+        "PassingScore": 70,
+        "SkillsEvaluated": [
+          "Python",
+          "SQL",
+          "System design"
+        ],
+        "DifficultyLevel": "Intermediate",
+        "TimeSpentMinutes": 24
+      },
+      "AssessedAt": "2026-08-19T14:00:00Z"
+    }
+  ],
+  "xavier-adams-020": [
+    {
+      "ID": "as-020-1",
+      "Type": "language_assessment",
+      "Status": "completed",
+      "AssessmentScore": 78,
+      "AssessmentDetails": {
+        "PassingScore": 60,
+        "SkillsEvaluated": [
+          "Comprehension",
+          "Fluency",
+          "Grammar"
+        ],
+        "DifficultyLevel": "Hard",
+        "TimeSpentMinutes": 33
+      },
+      "AssessedAt": "2026-08-21T14:00:00Z"
+    }
+  ],
+  "bob-clark-022": [
+    {
+      "ID": "as-022-1",
+      "Type": "culture_fit",
+      "Status": "completed",
+      "AssessmentScore": 82,
+      "AssessmentDetails": {
+        "PassingScore": 50,
+        "SkillsEvaluated": [
+          "Collaboration",
+          "Ownership",
+          "Communication"
+        ],
+        "DifficultyLevel": "Hard",
+        "TimeSpentMinutes": 29
+      },
+      "AssessedAt": "2026-08-23T14:00:00Z"
+    },
+    {
+      "ID": "as-022-2",
+      "Type": "cognitive_assessment",
+      "Status": "completed",
+      "AssessmentScore": 78,
+      "AssessmentDetails": {
+        "PassingScore": 65,
+        "SkillsEvaluated": [
+          "Logical reasoning",
+          "Numerical",
+          "Verbal"
+        ],
+        "DifficultyLevel": "Intermediate",
+        "TimeSpentMinutes": 57
+      },
+      "AssessedAt": "2026-08-23T14:00:00Z"
+    },
+    {
+      "ID": "as-022-3",
+      "Type": "language_assessment",
+      "Status": "completed",
+      "AssessmentScore": 52,
+      "AssessmentDetails": {
+        "PassingScore": 60,
+        "SkillsEvaluated": [
+          "Comprehension",
+          "Fluency",
+          "Grammar"
+        ],
+        "DifficultyLevel": "Intermediate",
+        "TimeSpentMinutes": 70
+      },
+      "AssessedAt": "2026-08-23T14:00:00Z"
+    }
+  ],
+  "nora-evans-024": [
+    {
+      "ID": "as-024-1",
+      "Type": "culture_fit",
+      "Status": "pending",
+      "AssessmentScore": null,
+      "AssessmentDetails": {
+        "PassingScore": 50,
+        "SkillsEvaluated": [
+          "Collaboration",
+          "Ownership",
+          "Communication"
+        ],
+        "DifficultyLevel": "Easy",
+        "TimeSpentMinutes": 37
+      },
+      "AssessedAt": "2026-08-25T14:00:00Z"
+    },
+    {
+      "ID": "as-024-2",
+      "Type": "cognitive_assessment",
+      "Status": "completed",
+      "AssessmentScore": 80,
+      "AssessmentDetails": {
+        "PassingScore": 65,
+        "SkillsEvaluated": [
+          "Logical reasoning",
+          "Numerical",
+          "Verbal"
+        ],
+        "DifficultyLevel": "Hard",
+        "TimeSpentMinutes": 26
+      },
+      "AssessedAt": "2026-08-25T14:00:00Z"
+    }
+  ],
+  "olivia-baker-025": [
+    {
+      "ID": "as-025-1",
+      "Type": "language_assessment",
+      "Status": "completed",
+      "AssessmentScore": 78,
+      "AssessmentDetails": {
+        "PassingScore": 60,
+        "SkillsEvaluated": [
+          "Comprehension",
+          "Fluency",
+          "Grammar"
+        ],
+        "DifficultyLevel": "Intermediate",
+        "TimeSpentMinutes": 61
+      },
+      "AssessedAt": "2026-08-26T14:00:00Z"
+    },
+    {
+      "ID": "as-025-2",
+      "Type": "culture_fit",
+      "Status": "completed",
+      "AssessmentScore": 66,
+      "AssessmentDetails": {
+        "PassingScore": 50,
+        "SkillsEvaluated": [
+          "Collaboration",
+          "Ownership",
+          "Communication"
+        ],
+        "DifficultyLevel": "Hard",
+        "TimeSpentMinutes": 73
+      },
+      "AssessedAt": "2026-08-26T14:00:00Z"
+    },
+    {
+      "ID": "as-025-3",
+      "Type": "cognitive_assessment",
+      "Status": "completed",
+      "AssessmentScore": 62,
+      "AssessmentDetails": {
+        "PassingScore": 65,
+        "SkillsEvaluated": [
+          "Logical reasoning",
+          "Numerical",
+          "Verbal"
+        ],
+        "DifficultyLevel": "Intermediate",
+        "TimeSpentMinutes": 31
+      },
+      "AssessedAt": "2026-08-26T14:00:00Z"
+    }
+  ],
+  "victor-ivanov-026": [
+    {
+      "ID": "as-026-1",
+      "Type": "technical_assessment",
+      "Status": "completed",
+      "AssessmentScore": 63,
+      "AssessmentDetails": {
+        "PassingScore": 70,
+        "SkillsEvaluated": [
+          "Python",
+          "SQL",
+          "System design"
+        ],
+        "DifficultyLevel": "Hard",
+        "TimeSpentMinutes": 47
+      },
+      "AssessedAt": "2026-08-27T14:00:00Z"
+    },
+    {
+      "ID": "as-026-2",
+      "Type": "language_assessment",
+      "Status": "completed",
+      "AssessmentScore": 82,
+      "AssessmentDetails": {
+        "PassingScore": 60,
+        "SkillsEvaluated": [
+          "Comprehension",
+          "Fluency",
+          "Grammar"
+        ],
+        "DifficultyLevel": "Hard",
+        "TimeSpentMinutes": 67
+      },
+      "AssessedAt": "2026-08-27T14:00:00Z"
+    },
+    {
+      "ID": "as-026-3",
+      "Type": "culture_fit",
+      "Status": "completed",
+      "AssessmentScore": 58,
+      "AssessmentDetails": {
+        "PassingScore": 50,
+        "SkillsEvaluated": [
+          "Collaboration",
+          "Ownership",
+          "Communication"
+        ],
+        "DifficultyLevel": "Easy",
+        "TimeSpentMinutes": 43
+      },
+      "AssessedAt": "2026-08-27T14:00:00Z"
+    }
+  ],
+  "peggy-clark-027": [
+    {
+      "ID": "as-027-1",
+      "Type": "culture_fit",
+      "Status": "completed",
+      "AssessmentScore": 64,
+      "AssessmentDetails": {
+        "PassingScore": 50,
+        "SkillsEvaluated": [
+          "Collaboration",
+          "Ownership",
+          "Communication"
+        ],
+        "DifficultyLevel": "Intermediate",
+        "TimeSpentMinutes": 62
+      },
+      "AssessedAt": "2026-08-01T14:00:00Z"
+    },
+    {
+      "ID": "as-027-2",
+      "Type": "language_assessment",
+      "Status": "pending",
+      "AssessmentScore": null,
+      "AssessmentDetails": {
+        "PassingScore": 60,
+        "SkillsEvaluated": [
+          "Comprehension",
+          "Fluency",
+          "Grammar"
+        ],
+        "DifficultyLevel": "Hard",
+        "TimeSpentMinutes": 67
+      },
+      "AssessedAt": "2026-08-01T14:00:00Z"
+    }
+  ],
+  "frank-jones-028": [
+    {
+      "ID": "as-028-1",
+      "Type": "culture_fit",
+      "Status": "completed",
+      "AssessmentScore": 85,
+      "AssessmentDetails": {
+        "PassingScore": 50,
+        "SkillsEvaluated": [
+          "Collaboration",
+          "Ownership",
+          "Communication"
+        ],
+        "DifficultyLevel": "Hard",
+        "TimeSpentMinutes": 50
+      },
+      "AssessedAt": "2026-08-02T14:00:00Z"
+    },
+    {
+      "ID": "as-028-2",
+      "Type": "language_assessment",
+      "Status": "completed",
+      "AssessmentScore": 100,
+      "AssessmentDetails": {
+        "PassingScore": 60,
+        "SkillsEvaluated": [
+          "Comprehension",
+          "Fluency",
+          "Grammar"
+        ],
+        "DifficultyLevel": "Hard",
+        "TimeSpentMinutes": 25
+      },
+      "AssessedAt": "2026-08-02T14:00:00Z"
+    }
+  ],
+  "judy-klein-029": [
+    {
+      "ID": "as-029-1",
+      "Type": "culture_fit",
+      "Status": "completed",
+      "AssessmentScore": 60,
+      "AssessmentDetails": {
+        "PassingScore": 50,
+        "SkillsEvaluated": [
+          "Collaboration",
+          "Ownership",
+          "Communication"
+        ],
+        "DifficultyLevel": "Easy",
+        "TimeSpentMinutes": 49
+      },
+      "AssessedAt": "2026-08-03T14:00:00Z"
+    }
+  ],
+  "liam-diaz-031": [
+    {
+      "ID": "as-031-1",
+      "Type": "culture_fit",
+      "Status": "completed",
+      "AssessmentScore": 39,
+      "AssessmentDetails": {
+        "PassingScore": 50,
+        "SkillsEvaluated": [
+          "Collaboration",
+          "Ownership",
+          "Communication"
+        ],
+        "DifficultyLevel": "Hard",
+        "TimeSpentMinutes": 58
+      },
+      "AssessedAt": "2026-08-05T14:00:00Z"
+    }
+  ],
+  "nora-patel-033": [
+    {
+      "ID": "as-033-1",
+      "Type": "culture_fit",
+      "Status": "completed",
+      "AssessmentScore": 82,
+      "AssessmentDetails": {
+        "PassingScore": 50,
+        "SkillsEvaluated": [
+          "Collaboration",
+          "Ownership",
+          "Communication"
+        ],
+        "DifficultyLevel": "Easy",
+        "TimeSpentMinutes": 37
+      },
+      "AssessedAt": "2026-08-07T14:00:00Z"
+    },
+    {
+      "ID": "as-033-2",
+      "Type": "technical_assessment",
+      "Status": "completed",
+      "AssessmentScore": 82,
+      "AssessmentDetails": {
+        "PassingScore": 70,
+        "SkillsEvaluated": [
+          "Python",
+          "SQL",
+          "System design"
+        ],
+        "DifficultyLevel": "Easy",
+        "TimeSpentMinutes": 34
+      },
+      "AssessedAt": "2026-08-07T14:00:00Z"
+    }
+  ],
+  "olivia-evans-034": [
+    {
+      "ID": "as-034-1",
+      "Type": "culture_fit",
+      "Status": "pending",
+      "AssessmentScore": null,
+      "AssessmentDetails": {
+        "PassingScore": 50,
+        "SkillsEvaluated": [
+          "Collaboration",
+          "Ownership",
+          "Communication"
+        ],
+        "DifficultyLevel": "Easy",
+        "TimeSpentMinutes": 74
+      },
+      "AssessedAt": "2026-08-08T14:00:00Z"
+    },
+    {
+      "ID": "as-034-2",
+      "Type": "cognitive_assessment",
+      "Status": "pending",
+      "AssessmentScore": null,
+      "AssessmentDetails": {
+        "PassingScore": 65,
+        "SkillsEvaluated": [
+          "Logical reasoning",
+          "Numerical",
+          "Verbal"
+        ],
+        "DifficultyLevel": "Hard",
+        "TimeSpentMinutes": 44
+      },
+      "AssessedAt": "2026-08-08T14:00:00Z"
+    }
+  ],
+  "heidi-patel-036": [
+    {
+      "ID": "as-036-1",
+      "Type": "language_assessment",
+      "Status": "pending",
+      "AssessmentScore": null,
+      "AssessmentDetails": {
+        "PassingScore": 60,
+        "SkillsEvaluated": [
+          "Comprehension",
+          "Fluency",
+          "Grammar"
+        ],
+        "DifficultyLevel": "Hard",
+        "TimeSpentMinutes": 54
+      },
+      "AssessedAt": "2026-08-10T14:00:00Z"
+    },
+    {
+      "ID": "as-036-2",
+      "Type": "culture_fit",
+      "Status": "completed",
+      "AssessmentScore": 62,
+      "AssessmentDetails": {
+        "PassingScore": 50,
+        "SkillsEvaluated": [
+          "Collaboration",
+          "Ownership",
+          "Communication"
+        ],
+        "DifficultyLevel": "Intermediate",
+        "TimeSpentMinutes": 57
+      },
+      "AssessedAt": "2026-08-10T14:00:00Z"
+    }
+  ],
+  "victor-adams-037": [
+    {
+      "ID": "as-037-1",
+      "Type": "culture_fit",
+      "Status": "completed",
+      "AssessmentScore": 57,
+      "AssessmentDetails": {
+        "PassingScore": 50,
+        "SkillsEvaluated": [
+          "Collaboration",
+          "Ownership",
+          "Communication"
+        ],
+        "DifficultyLevel": "Intermediate",
+        "TimeSpentMinutes": 36
+      },
+      "AssessedAt": "2026-08-11T14:00:00Z"
+    }
+  ],
+  "carol-patel-038": [
+    {
+      "ID": "as-038-1",
+      "Type": "language_assessment",
+      "Status": "completed",
+      "AssessmentScore": 42,
+      "AssessmentDetails": {
+        "PassingScore": 60,
+        "SkillsEvaluated": [
+          "Comprehension",
+          "Fluency",
+          "Grammar"
+        ],
+        "DifficultyLevel": "Easy",
+        "TimeSpentMinutes": 59
+      },
+      "AssessedAt": "2026-08-12T14:00:00Z"
+    }
+  ],
+  "eve-hughes-039": [
+    {
+      "ID": "as-039-1",
+      "Type": "language_assessment",
+      "Status": "completed",
+      "AssessmentScore": 66,
+      "AssessmentDetails": {
+        "PassingScore": 60,
+        "SkillsEvaluated": [
+          "Comprehension",
+          "Fluency",
+          "Grammar"
+        ],
+        "DifficultyLevel": "Easy",
+        "TimeSpentMinutes": 39
+      },
+      "AssessedAt": "2026-08-13T14:00:00Z"
+    },
+    {
+      "ID": "as-039-2",
+      "Type": "cognitive_assessment",
+      "Status": "completed",
+      "AssessmentScore": 59,
+      "AssessmentDetails": {
+        "PassingScore": 65,
+        "SkillsEvaluated": [
+          "Logical reasoning",
+          "Numerical",
+          "Verbal"
+        ],
+        "DifficultyLevel": "Easy",
+        "TimeSpentMinutes": 39
+      },
+      "AssessedAt": "2026-08-13T14:00:00Z"
+    }
+  ],
+  "victor-meyer-040": [
+    {
+      "ID": "as-040-1",
+      "Type": "technical_assessment",
+      "Status": "completed",
+      "AssessmentScore": 48,
+      "AssessmentDetails": {
+        "PassingScore": 70,
+        "SkillsEvaluated": [
+          "Python",
+          "SQL",
+          "System design"
+        ],
+        "DifficultyLevel": "Intermediate",
+        "TimeSpentMinutes": 24
+      },
+      "AssessedAt": "2026-08-14T14:00:00Z"
+    },
+    {
+      "ID": "as-040-2",
+      "Type": "cognitive_assessment",
+      "Status": "completed",
+      "AssessmentScore": 68,
+      "AssessmentDetails": {
+        "PassingScore": 65,
+        "SkillsEvaluated": [
+          "Logical reasoning",
+          "Numerical",
+          "Verbal"
+        ],
+        "DifficultyLevel": "Intermediate",
+        "TimeSpentMinutes": 20
+      },
+      "AssessedAt": "2026-08-14T14:00:00Z"
+    }
+  ],
+  "peggy-patel-041": [
+    {
+      "ID": "as-041-1",
+      "Type": "cognitive_assessment",
+      "Status": "completed",
+      "AssessmentScore": 87,
+      "AssessmentDetails": {
+        "PassingScore": 65,
+        "SkillsEvaluated": [
+          "Logical reasoning",
+          "Numerical",
+          "Verbal"
+        ],
+        "DifficultyLevel": "Intermediate",
+        "TimeSpentMinutes": 74
+      },
+      "AssessedAt": "2026-08-15T14:00:00Z"
+    },
+    {
+      "ID": "as-041-2",
+      "Type": "culture_fit",
+      "Status": "completed",
+      "AssessmentScore": 61,
+      "AssessmentDetails": {
+        "PassingScore": 50,
+        "SkillsEvaluated": [
+          "Collaboration",
+          "Ownership",
+          "Communication"
+        ],
+        "DifficultyLevel": "Easy",
+        "TimeSpentMinutes": 37
+      },
+      "AssessedAt": "2026-08-15T14:00:00Z"
+    },
+    {
+      "ID": "as-041-3",
+      "Type": "language_assessment",
+      "Status": "pending",
+      "AssessmentScore": null,
+      "AssessmentDetails": {
+        "PassingScore": 60,
+        "SkillsEvaluated": [
+          "Comprehension",
+          "Fluency",
+          "Grammar"
+        ],
+        "DifficultyLevel": "Easy",
+        "TimeSpentMinutes": 68
+      },
+      "AssessedAt": "2026-08-15T14:00:00Z"
+    }
+  ],
+  "mallory-ivanov-043": [
+    {
+      "ID": "as-043-1",
+      "Type": "language_assessment",
+      "Status": "completed",
+      "AssessmentScore": 52,
+      "AssessmentDetails": {
+        "PassingScore": 60,
+        "SkillsEvaluated": [
+          "Comprehension",
+          "Fluency",
+          "Grammar"
+        ],
+        "DifficultyLevel": "Easy",
+        "TimeSpentMinutes": 25
+      },
+      "AssessedAt": "2026-08-17T14:00:00Z"
+    },
+    {
+      "ID": "as-043-2",
+      "Type": "cognitive_assessment",
+      "Status": "completed",
+      "AssessmentScore": 41,
+      "AssessmentDetails": {
+        "PassingScore": 65,
+        "SkillsEvaluated": [
+          "Logical reasoning",
+          "Numerical",
+          "Verbal"
+        ],
+        "DifficultyLevel": "Intermediate",
+        "TimeSpentMinutes": 64
+      },
+      "AssessedAt": "2026-08-17T14:00:00Z"
+    }
+  ],
+  "heidi-jones-044": [
+    {
+      "ID": "as-044-1",
+      "Type": "cognitive_assessment",
+      "Status": "completed",
+      "AssessmentScore": 62,
+      "AssessmentDetails": {
+        "PassingScore": 65,
+        "SkillsEvaluated": [
+          "Logical reasoning",
+          "Numerical",
+          "Verbal"
+        ],
+        "DifficultyLevel": "Hard",
+        "TimeSpentMinutes": 32
+      },
+      "AssessedAt": "2026-08-18T14:00:00Z"
+    },
+    {
+      "ID": "as-044-2",
+      "Type": "culture_fit",
+      "Status": "completed",
+      "AssessmentScore": 76,
+      "AssessmentDetails": {
+        "PassingScore": 50,
+        "SkillsEvaluated": [
+          "Collaboration",
+          "Ownership",
+          "Communication"
+        ],
+        "DifficultyLevel": "Hard",
+        "TimeSpentMinutes": 54
+      },
+      "AssessedAt": "2026-08-18T14:00:00Z"
+    }
+  ],
+  "wendy-jones-046": [
+    {
+      "ID": "as-046-1",
+      "Type": "cognitive_assessment",
+      "Status": "completed",
+      "AssessmentScore": 76,
+      "AssessmentDetails": {
+        "PassingScore": 65,
+        "SkillsEvaluated": [
+          "Logical reasoning",
+          "Numerical",
+          "Verbal"
+        ],
+        "DifficultyLevel": "Intermediate",
+        "TimeSpentMinutes": 26
+      },
+      "AssessedAt": "2026-08-20T14:00:00Z"
+    }
+  ],
+  "sybil-diaz-048": [
+    {
+      "ID": "as-048-1",
+      "Type": "cognitive_assessment",
+      "Status": "completed",
+      "AssessmentScore": 86,
+      "AssessmentDetails": {
+        "PassingScore": 65,
+        "SkillsEvaluated": [
+          "Logical reasoning",
+          "Numerical",
+          "Verbal"
+        ],
+        "DifficultyLevel": "Intermediate",
+        "TimeSpentMinutes": 58
+      },
+      "AssessedAt": "2026-08-22T14:00:00Z"
+    },
+    {
+      "ID": "as-048-2",
+      "Type": "technical_assessment",
+      "Status": "completed",
+      "AssessmentScore": 48,
+      "AssessmentDetails": {
+        "PassingScore": 70,
+        "SkillsEvaluated": [
+          "Python",
+          "SQL",
+          "System design"
+        ],
+        "DifficultyLevel": "Intermediate",
+        "TimeSpentMinutes": 48
+      },
+      "AssessedAt": "2026-08-22T14:00:00Z"
+    },
+    {
+      "ID": "as-048-3",
+      "Type": "culture_fit",
+      "Status": "pending",
+      "AssessmentScore": null,
+      "AssessmentDetails": {
+        "PassingScore": 50,
+        "SkillsEvaluated": [
+          "Collaboration",
+          "Ownership",
+          "Communication"
+        ],
+        "DifficultyLevel": "Intermediate",
+        "TimeSpentMinutes": 75
+      },
+      "AssessedAt": "2026-08-22T14:00:00Z"
+    }
+  ],
+  "victor-novak-049": [
+    {
+      "ID": "as-049-1",
+      "Type": "technical_assessment",
+      "Status": "completed",
+      "AssessmentScore": 62,
+      "AssessmentDetails": {
+        "PassingScore": 70,
+        "SkillsEvaluated": [
+          "Python",
+          "SQL",
+          "System design"
+        ],
+        "DifficultyLevel": "Easy",
+        "TimeSpentMinutes": 30
+      },
+      "AssessedAt": "2026-08-23T14:00:00Z"
+    },
+    {
+      "ID": "as-049-2",
+      "Type": "culture_fit",
+      "Status": "completed",
+      "AssessmentScore": 60,
+      "AssessmentDetails": {
+        "PassingScore": 50,
+        "SkillsEvaluated": [
+          "Collaboration",
+          "Ownership",
+          "Communication"
+        ],
+        "DifficultyLevel": "Intermediate",
+        "TimeSpentMinutes": 22
+      },
+      "AssessedAt": "2026-08-23T14:00:00Z"
+    },
+    {
+      "ID": "as-049-3",
+      "Type": "cognitive_assessment",
+      "Status": "completed",
+      "AssessmentScore": 84,
+      "AssessmentDetails": {
+        "PassingScore": 65,
+        "SkillsEvaluated": [
+          "Logical reasoning",
+          "Numerical",
+          "Verbal"
+        ],
+        "DifficultyLevel": "Hard",
+        "TimeSpentMinutes": 38
+      },
+      "AssessedAt": "2026-08-23T14:00:00Z"
+    }
+  ],
+  "zane-owens-050": [
+    {
+      "ID": "as-050-1",
+      "Type": "culture_fit",
+      "Status": "completed",
+      "AssessmentScore": 57,
+      "AssessmentDetails": {
+        "PassingScore": 50,
+        "SkillsEvaluated": [
+          "Collaboration",
+          "Ownership",
+          "Communication"
+        ],
+        "DifficultyLevel": "Intermediate",
+        "TimeSpentMinutes": 72
+      },
+      "AssessedAt": "2026-08-24T14:00:00Z"
+    }
+  ],
+  "rupert-diaz-052": [
+    {
+      "ID": "as-052-1",
+      "Type": "technical_assessment",
+      "Status": "pending",
+      "AssessmentScore": null,
+      "AssessmentDetails": {
+        "PassingScore": 70,
+        "SkillsEvaluated": [
+          "Python",
+          "SQL",
+          "System design"
+        ],
+        "DifficultyLevel": "Hard",
+        "TimeSpentMinutes": 40
+      },
+      "AssessedAt": "2026-08-26T14:00:00Z"
+    }
+  ],
+  "liam-ivanov-054": [
+    {
+      "ID": "as-054-1",
+      "Type": "language_assessment",
+      "Status": "completed",
+      "AssessmentScore": 74,
+      "AssessmentDetails": {
+        "PassingScore": 60,
+        "SkillsEvaluated": [
+          "Comprehension",
+          "Fluency",
+          "Grammar"
+        ],
+        "DifficultyLevel": "Intermediate",
+        "TimeSpentMinutes": 25
+      },
+      "AssessedAt": "2026-08-01T14:00:00Z"
+    },
+    {
+      "ID": "as-054-2",
+      "Type": "cognitive_assessment",
+      "Status": "completed",
+      "AssessmentScore": 56,
+      "AssessmentDetails": {
+        "PassingScore": 65,
+        "SkillsEvaluated": [
+          "Logical reasoning",
+          "Numerical",
+          "Verbal"
+        ],
+        "DifficultyLevel": "Easy",
+        "TimeSpentMinutes": 74
+      },
+      "AssessedAt": "2026-08-01T14:00:00Z"
+    }
+  ],
+  "frank-klein-055": [
+    {
+      "ID": "as-055-1",
+      "Type": "technical_assessment",
+      "Status": "completed",
+      "AssessmentScore": 63,
+      "AssessmentDetails": {
+        "PassingScore": 70,
+        "SkillsEvaluated": [
+          "Python",
+          "SQL",
+          "System design"
+        ],
+        "DifficultyLevel": "Easy",
+        "TimeSpentMinutes": 69
+      },
+      "AssessedAt": "2026-08-02T14:00:00Z"
+    },
+    {
+      "ID": "as-055-2",
+      "Type": "language_assessment",
+      "Status": "completed",
+      "AssessmentScore": 14,
+      "AssessmentDetails": {
+        "PassingScore": 60,
+        "SkillsEvaluated": [
+          "Comprehension",
+          "Fluency",
+          "Grammar"
+        ],
+        "DifficultyLevel": "Hard",
+        "TimeSpentMinutes": 75
+      },
+      "AssessedAt": "2026-08-02T14:00:00Z"
+    }
+  ],
+  "uma-owens-056": [
+    {
+      "ID": "as-056-1",
+      "Type": "language_assessment",
+      "Status": "completed",
+      "AssessmentScore": 52,
+      "AssessmentDetails": {
+        "PassingScore": 60,
+        "SkillsEvaluated": [
+          "Comprehension",
+          "Fluency",
+          "Grammar"
+        ],
+        "DifficultyLevel": "Easy",
+        "TimeSpentMinutes": 38
+      },
+      "AssessedAt": "2026-08-03T14:00:00Z"
+    }
+  ],
+  "rupert-patel-057": [
+    {
+      "ID": "as-057-1",
+      "Type": "technical_assessment",
+      "Status": "pending",
+      "AssessmentScore": null,
+      "AssessmentDetails": {
+        "PassingScore": 70,
+        "SkillsEvaluated": [
+          "Python",
+          "SQL",
+          "System design"
+        ],
+        "DifficultyLevel": "Easy",
+        "TimeSpentMinutes": 49
+      },
+      "AssessedAt": "2026-08-04T14:00:00Z"
+    },
+    {
+      "ID": "as-057-2",
+      "Type": "culture_fit",
+      "Status": "pending",
+      "AssessmentScore": null,
+      "AssessmentDetails": {
+        "PassingScore": 50,
+        "SkillsEvaluated": [
+          "Collaboration",
+          "Ownership",
+          "Communication"
+        ],
+        "DifficultyLevel": "Hard",
+        "TimeSpentMinutes": 73
+      },
+      "AssessedAt": "2026-08-04T14:00:00Z"
+    }
+  ],
+  "eve-patel-058": [
+    {
+      "ID": "as-058-1",
+      "Type": "language_assessment",
+      "Status": "pending",
+      "AssessmentScore": null,
+      "AssessmentDetails": {
+        "PassingScore": 60,
+        "SkillsEvaluated": [
+          "Comprehension",
+          "Fluency",
+          "Grammar"
+        ],
+        "DifficultyLevel": "Hard",
+        "TimeSpentMinutes": 67
+      },
+      "AssessedAt": "2026-08-05T14:00:00Z"
+    },
+    {
+      "ID": "as-058-2",
+      "Type": "culture_fit",
+      "Status": "pending",
+      "AssessmentScore": null,
+      "AssessmentDetails": {
+        "PassingScore": 50,
+        "SkillsEvaluated": [
+          "Collaboration",
+          "Ownership",
+          "Communication"
+        ],
+        "DifficultyLevel": "Easy",
+        "TimeSpentMinutes": 37
+      },
+      "AssessedAt": "2026-08-05T14:00:00Z"
+    },
+    {
+      "ID": "as-058-3",
+      "Type": "technical_assessment",
+      "Status": "completed",
+      "AssessmentScore": 86,
+      "AssessmentDetails": {
+        "PassingScore": 70,
+        "SkillsEvaluated": [
+          "Python",
+          "SQL",
+          "System design"
+        ],
+        "DifficultyLevel": "Hard",
+        "TimeSpentMinutes": 37
+      },
+      "AssessedAt": "2026-08-05T14:00:00Z"
+    }
+  ],
+  "alice-jones-059": [
+    {
+      "ID": "as-059-1",
+      "Type": "culture_fit",
+      "Status": "pending",
+      "AssessmentScore": null,
+      "AssessmentDetails": {
+        "PassingScore": 50,
+        "SkillsEvaluated": [
+          "Collaboration",
+          "Ownership",
+          "Communication"
+        ],
+        "DifficultyLevel": "Easy",
+        "TimeSpentMinutes": 64
+      },
+      "AssessedAt": "2026-08-06T14:00:00Z"
+    },
+    {
+      "ID": "as-059-2",
+      "Type": "language_assessment",
+      "Status": "completed",
+      "AssessmentScore": 68,
+      "AssessmentDetails": {
+        "PassingScore": 60,
+        "SkillsEvaluated": [
+          "Comprehension",
+          "Fluency",
+          "Grammar"
+        ],
+        "DifficultyLevel": "Intermediate",
+        "TimeSpentMinutes": 34
+      },
+      "AssessedAt": "2026-08-06T14:00:00Z"
+    }
+  ]
+}

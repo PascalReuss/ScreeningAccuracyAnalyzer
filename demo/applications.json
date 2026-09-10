@@ -1,0 +1,1322 @@
+[
+  {
+    "StepName": "Rejected",
+    "StepCategory": "Rejected",
+    "HumanReview": true,
+    "HumanDecision": "NegativeDecision",
+    "AgentReview": false,
+    "PaulDecision": "NegativeDecision",
+    "PaulDecisionSummary": "Missing a mandatory certification for the role.",
+    "Comment": "",
+    "Application": {
+      "ID": "JP-2001",
+      "ApplicationDate": "2026-08-06T09:00:00Z"
+    },
+    "Person": {
+      "PersonSlug": "xavier-diaz-001",
+      "FullName": "Xavier Diaz"
+    },
+    "Job": {
+      "PaulsjobJobID": 12345,
+      "JobPositionTitle": "Backend Engineer"
+    }
+  },
+  {
+    "StepName": "AI Voice Interview",
+    "StepCategory": "AIVoiceInterview",
+    "HumanReview": false,
+    "HumanDecision": "",
+    "AgentReview": false,
+    "PaulDecision": "NegativeDecision",
+    "PaulDecisionSummary": "Missing a mandatory certification for the role.",
+    "Comment": "",
+    "Application": {
+      "ID": "JP-2002",
+      "ApplicationDate": "2026-09-11T09:00:00Z"
+    },
+    "Person": {
+      "PersonSlug": "mia-fisher-002",
+      "FullName": "Mia Fisher"
+    },
+    "Job": {
+      "PaulsjobJobID": 12348,
+      "JobPositionTitle": "Product Designer"
+    }
+  },
+  {
+    "StepName": "Recruiting Day",
+    "StepCategory": "RecruitingDay",
+    "HumanReview": true,
+    "HumanDecision": "NegativeDecision",
+    "AgentReview": false,
+    "PaulDecision": "NegativeDecision",
+    "PaulDecisionSummary": "No relevant industry background.",
+    "Comment": "",
+    "Application": {
+      "ID": "JP-2003",
+      "ApplicationDate": "2026-07-16T09:00:00Z"
+    },
+    "Person": {
+      "PersonSlug": "mia-baker-003",
+      "FullName": "Mia Baker"
+    },
+    "Job": {
+      "PaulsjobJobID": 12348,
+      "JobPositionTitle": "Product Designer"
+    }
+  },
+  {
+    "StepName": "Pre-Screening",
+    "StepCategory": "PreScreening",
+    "HumanReview": false,
+    "HumanDecision": "",
+    "AgentReview": false,
+    "PaulDecision": "",
+    "PaulDecisionSummary": "",
+    "Comment": "",
+    "Application": {
+      "ID": "JP-2004",
+      "ApplicationDate": "2026-08-21T09:00:00Z"
+    },
+    "Person": {
+      "PersonSlug": "niaj-gomez-004",
+      "FullName": "Niaj Gomez"
+    },
+    "Job": {
+      "PaulsjobJobID": 12345,
+      "JobPositionTitle": "Backend Engineer"
+    }
+  },
+  {
+    "StepName": "Human Interview",
+    "StepCategory": "HumanInterview",
+    "HumanReview": true,
+    "HumanDecision": "",
+    "AgentReview": false,
+    "PaulDecision": "",
+    "PaulDecisionSummary": "",
+    "Comment": "",
+    "Application": {
+      "ID": "JP-2005",
+      "ApplicationDate": "2026-09-26T09:00:00Z"
+    },
+    "Person": {
+      "PersonSlug": "david-meyer-005",
+      "FullName": "David Meyer"
+    },
+    "Job": {
+      "PaulsjobJobID": 12347,
+      "JobPositionTitle": "Data Analyst"
+    }
+  },
+  {
+    "StepName": "Pre-Screening",
+    "StepCategory": "PreScreening",
+    "HumanReview": false,
+    "HumanDecision": "",
+    "AgentReview": false,
+    "PaulDecision": "NegativeDecision",
+    "PaulDecisionSummary": "Does not meet the minimum years of experience.",
+    "Comment": "",
+    "Application": {
+      "ID": "JP-2006",
+      "ApplicationDate": "2026-07-04T09:00:00Z"
+    },
+    "Person": {
+      "PersonSlug": "uma-hughes-006",
+      "FullName": "Uma Hughes"
+    },
+    "Job": {
+      "PaulsjobJobID": 12347,
+      "JobPositionTitle": "Data Analyst"
+    }
+  },
+  {
+    "StepName": "Human Interview",
+    "StepCategory": "HumanInterview",
+    "HumanReview": false,
+    "HumanDecision": "",
+    "AgentReview": false,
+    "PaulDecision": "NegativeDecision",
+    "PaulDecisionSummary": "Does not meet the minimum years of experience.",
+    "Comment": "",
+    "Application": {
+      "ID": "JP-2007",
+      "ApplicationDate": "2026-08-09T09:00:00Z"
+    },
+    "Person": {
+      "PersonSlug": "heidi-evans-007",
+      "FullName": "Heidi Evans"
+    },
+    "Job": {
+      "PaulsjobJobID": 12349,
+      "JobPositionTitle": "Customer Success Manager"
+    }
+  },
+  {
+    "StepName": "Pre-Screening",
+    "StepCategory": "PreScreening",
+    "HumanReview": false,
+    "HumanDecision": "",
+    "AgentReview": false,
+    "PaulDecision": "NegativeDecision",
+    "PaulDecisionSummary": "Missing a mandatory certification for the role.",
+    "Comment": "",
+    "Application": {
+      "ID": "JP-2008",
+      "ApplicationDate": "2026-09-14T09:00:00Z"
+    },
+    "Person": {
+      "PersonSlug": "liam-ivanov-008",
+      "FullName": "Liam Ivanov"
+    },
+    "Job": {
+      "PaulsjobJobID": 12347,
+      "JobPositionTitle": "Data Analyst"
+    }
+  },
+  {
+    "StepName": "Pre-Screening",
+    "StepCategory": "PreScreening",
+    "HumanReview": false,
+    "HumanDecision": "",
+    "AgentReview": false,
+    "PaulDecision": "PositiveDecision",
+    "PaulDecisionSummary": "Relevant industry experience and a good culture fit.",
+    "Comment": "",
+    "Application": {
+      "ID": "JP-2009",
+      "ApplicationDate": "2026-07-19T09:00:00Z"
+    },
+    "Person": {
+      "PersonSlug": "ivan-fisher-009",
+      "FullName": "Ivan Fisher"
+    },
+    "Job": {
+      "PaulsjobJobID": 12349,
+      "JobPositionTitle": "Customer Success Manager"
+    }
+  },
+  {
+    "StepName": "Pre-Screening",
+    "StepCategory": "PreScreening",
+    "HumanReview": false,
+    "HumanDecision": "",
+    "AgentReview": true,
+    "PaulDecision": "NegativeDecision",
+    "PaulDecisionSummary": "Weak communication during the screening call.",
+    "Comment": "",
+    "Application": {
+      "ID": "JP-2010",
+      "ApplicationDate": "2026-08-24T09:00:00Z"
+    },
+    "Person": {
+      "PersonSlug": "mia-jones-010",
+      "FullName": "Mia Jones"
+    },
+    "Job": {
+      "PaulsjobJobID": 12346,
+      "JobPositionTitle": "Frontend Engineer"
+    }
+  },
+  {
+    "StepName": "Recruiting Day",
+    "StepCategory": "RecruitingDay",
+    "HumanReview": true,
+    "HumanDecision": "",
+    "AgentReview": false,
+    "PaulDecision": "",
+    "PaulDecisionSummary": "",
+    "Comment": "",
+    "Application": {
+      "ID": "JP-2011",
+      "ApplicationDate": "2026-09-02T09:00:00Z"
+    },
+    "Person": {
+      "PersonSlug": "frank-ivanov-011",
+      "FullName": "Frank Ivanov"
+    },
+    "Job": {
+      "PaulsjobJobID": 12349,
+      "JobPositionTitle": "Customer Success Manager"
+    }
+  },
+  {
+    "StepName": "Pre-Screening",
+    "StepCategory": "PreScreening",
+    "HumanReview": false,
+    "HumanDecision": "",
+    "AgentReview": false,
+    "PaulDecision": "NegativeDecision",
+    "PaulDecisionSummary": "Weak communication during the screening call.",
+    "Comment": "",
+    "Application": {
+      "ID": "JP-2012",
+      "ApplicationDate": "2026-07-07T09:00:00Z"
+    },
+    "Person": {
+      "PersonSlug": "david-hughes-012",
+      "FullName": "David Hughes"
+    },
+    "Job": {
+      "PaulsjobJobID": 12346,
+      "JobPositionTitle": "Frontend Engineer"
+    }
+  },
+  {
+    "StepName": "Human Interview",
+    "StepCategory": "HumanInterview",
+    "HumanReview": false,
+    "HumanDecision": "",
+    "AgentReview": false,
+    "PaulDecision": "NegativeDecision",
+    "PaulDecisionSummary": "Does not meet the minimum years of experience.",
+    "Comment": "",
+    "Application": {
+      "ID": "JP-2013",
+      "ApplicationDate": "2026-08-12T09:00:00Z"
+    },
+    "Person": {
+      "PersonSlug": "sybil-hughes-013",
+      "FullName": "Sybil Hughes"
+    },
+    "Job": {
+      "PaulsjobJobID": 12348,
+      "JobPositionTitle": "Product Designer"
+    }
+  },
+  {
+    "StepName": "Human Interview",
+    "StepCategory": "HumanInterview",
+    "HumanReview": true,
+    "HumanDecision": "NegativeDecision",
+    "AgentReview": false,
+    "PaulDecision": "PositiveDecision",
+    "PaulDecisionSummary": "Meets all mandatory requirements; strong technical background.",
+    "Comment": "",
+    "Application": {
+      "ID": "JP-2014",
+      "ApplicationDate": "2026-09-17T09:00:00Z"
+    },
+    "Person": {
+      "PersonSlug": "rupert-hughes-014",
+      "FullName": "Rupert Hughes"
+    },
+    "Job": {
+      "PaulsjobJobID": 12345,
+      "JobPositionTitle": "Backend Engineer"
+    }
+  },
+  {
+    "StepName": "Human Interview",
+    "StepCategory": "HumanInterview",
+    "HumanReview": true,
+    "HumanDecision": "",
+    "AgentReview": false,
+    "PaulDecision": "",
+    "PaulDecisionSummary": "",
+    "Comment": "",
+    "Application": {
+      "ID": "JP-2015",
+      "ApplicationDate": "2026-07-22T09:00:00Z"
+    },
+    "Person": {
+      "PersonSlug": "liam-hughes-015",
+      "FullName": "Liam Hughes"
+    },
+    "Job": {
+      "PaulsjobJobID": 12346,
+      "JobPositionTitle": "Frontend Engineer"
+    }
+  },
+  {
+    "StepName": "Prescreening Questions",
+    "StepCategory": "PreScreening",
+    "HumanReview": false,
+    "HumanDecision": "",
+    "AgentReview": false,
+    "PaulDecision": "NegativeDecision",
+    "PaulDecisionSummary": "Does not meet the minimum years of experience.",
+    "Comment": "",
+    "Application": {
+      "ID": "JP-2016",
+      "ApplicationDate": "2026-08-27T09:00:00Z"
+    },
+    "Person": {
+      "PersonSlug": "zane-patel-016",
+      "FullName": "Zane Patel"
+    },
+    "Job": {
+      "PaulsjobJobID": 12346,
+      "JobPositionTitle": "Frontend Engineer"
+    }
+  },
+  {
+    "StepName": "Recruiting Day",
+    "StepCategory": "RecruitingDay",
+    "HumanReview": true,
+    "HumanDecision": "NegativeDecision",
+    "AgentReview": false,
+    "PaulDecision": "NegativeDecision",
+    "PaulDecisionSummary": "Missing a mandatory certification for the role.",
+    "Comment": "",
+    "Application": {
+      "ID": "JP-2017",
+      "ApplicationDate": "2026-09-05T09:00:00Z"
+    },
+    "Person": {
+      "PersonSlug": "trent-fisher-017",
+      "FullName": "Trent Fisher"
+    },
+    "Job": {
+      "PaulsjobJobID": 12345,
+      "JobPositionTitle": "Backend Engineer"
+    }
+  },
+  {
+    "StepName": "Human Interview",
+    "StepCategory": "HumanInterview",
+    "HumanReview": true,
+    "HumanDecision": "",
+    "AgentReview": false,
+    "PaulDecision": "OptOutNoAnswer",
+    "PaulDecisionSummary": "",
+    "Comment": "Candidate opted out.",
+    "Application": {
+      "ID": "JP-2018",
+      "ApplicationDate": "2026-07-10T09:00:00Z"
+    },
+    "Person": {
+      "PersonSlug": "olivia-evans-018",
+      "FullName": "Olivia Evans"
+    },
+    "Job": {
+      "PaulsjobJobID": 12347,
+      "JobPositionTitle": "Data Analyst"
+    }
+  },
+  {
+    "StepName": "Prescreening Questions",
+    "StepCategory": "PreScreening",
+    "HumanReview": false,
+    "HumanDecision": "",
+    "AgentReview": false,
+    "PaulDecision": "NegativeDecision",
+    "PaulDecisionSummary": "Weak communication during the screening call.",
+    "Comment": "",
+    "Application": {
+      "ID": "JP-2019",
+      "ApplicationDate": "2026-08-15T09:00:00Z"
+    },
+    "Person": {
+      "PersonSlug": "heidi-lopez-019",
+      "FullName": "Heidi Lopez"
+    },
+    "Job": {
+      "PaulsjobJobID": 12347,
+      "JobPositionTitle": "Data Analyst"
+    }
+  },
+  {
+    "StepName": "AI Voice Interview",
+    "StepCategory": "AIVoiceInterview",
+    "HumanReview": false,
+    "HumanDecision": "",
+    "AgentReview": true,
+    "PaulDecision": "PositiveDecision",
+    "PaulDecisionSummary": "Meets all mandatory requirements; strong technical background.",
+    "Comment": "",
+    "Application": {
+      "ID": "JP-2020",
+      "ApplicationDate": "2026-09-20T09:00:00Z"
+    },
+    "Person": {
+      "PersonSlug": "xavier-adams-020",
+      "FullName": "Xavier Adams"
+    },
+    "Job": {
+      "PaulsjobJobID": 12349,
+      "JobPositionTitle": "Customer Success Manager"
+    }
+  },
+  {
+    "StepName": "Rejected",
+    "StepCategory": "Rejected",
+    "HumanReview": false,
+    "HumanDecision": "",
+    "AgentReview": false,
+    "PaulDecision": "NegativeDecision",
+    "PaulDecisionSummary": "Salary expectation is well above the band.",
+    "Comment": "",
+    "Application": {
+      "ID": "JP-2021",
+      "ApplicationDate": "2026-07-25T09:00:00Z"
+    },
+    "Person": {
+      "PersonSlug": "zane-klein-021",
+      "FullName": "Zane Klein"
+    },
+    "Job": {
+      "PaulsjobJobID": 12346,
+      "JobPositionTitle": "Frontend Engineer"
+    }
+  },
+  {
+    "StepName": "AI Voice Interview",
+    "StepCategory": "AIVoiceInterview",
+    "HumanReview": false,
+    "HumanDecision": "",
+    "AgentReview": false,
+    "PaulDecision": "NegativeDecision",
+    "PaulDecisionSummary": "Salary expectation is well above the band.",
+    "Comment": "",
+    "Application": {
+      "ID": "JP-2022",
+      "ApplicationDate": "2026-08-03T09:00:00Z"
+    },
+    "Person": {
+      "PersonSlug": "bob-clark-022",
+      "FullName": "Bob Clark"
+    },
+    "Job": {
+      "PaulsjobJobID": 12348,
+      "JobPositionTitle": "Product Designer"
+    }
+  },
+  {
+    "StepName": "Rejected",
+    "StepCategory": "Rejected",
+    "HumanReview": true,
+    "HumanDecision": "NegativeDecision",
+    "AgentReview": false,
+    "PaulDecision": "NegativeDecision",
+    "PaulDecisionSummary": "Does not meet the minimum years of experience.",
+    "Comment": "",
+    "Application": {
+      "ID": "JP-2023",
+      "ApplicationDate": "2026-09-08T09:00:00Z"
+    },
+    "Person": {
+      "PersonSlug": "bob-lopez-023",
+      "FullName": "Bob Lopez"
+    },
+    "Job": {
+      "PaulsjobJobID": 12346,
+      "JobPositionTitle": "Frontend Engineer"
+    }
+  },
+  {
+    "StepName": "Prescreening Questions",
+    "StepCategory": "PreScreening",
+    "HumanReview": false,
+    "HumanDecision": "",
+    "AgentReview": true,
+    "PaulDecision": "PositiveDecision",
+    "PaulDecisionSummary": "Excellent communication and clear motivation for the role.",
+    "Comment": "",
+    "Application": {
+      "ID": "JP-2024",
+      "ApplicationDate": "2026-07-13T09:00:00Z"
+    },
+    "Person": {
+      "PersonSlug": "nora-evans-024",
+      "FullName": "Nora Evans"
+    },
+    "Job": {
+      "PaulsjobJobID": 12346,
+      "JobPositionTitle": "Frontend Engineer"
+    }
+  },
+  {
+    "StepName": "Prescreening Questions",
+    "StepCategory": "PreScreening",
+    "HumanReview": true,
+    "HumanDecision": "PositiveDecision",
+    "AgentReview": false,
+    "PaulDecision": "NegativeDecision",
+    "PaulDecisionSummary": "No relevant industry background.",
+    "Comment": "",
+    "Application": {
+      "ID": "JP-2025",
+      "ApplicationDate": "2026-08-18T09:00:00Z"
+    },
+    "Person": {
+      "PersonSlug": "olivia-baker-025",
+      "FullName": "Olivia Baker"
+    },
+    "Job": {
+      "PaulsjobJobID": 12348,
+      "JobPositionTitle": "Product Designer"
+    }
+  },
+  {
+    "StepName": "Pre-Screening",
+    "StepCategory": "PreScreening",
+    "HumanReview": true,
+    "HumanDecision": "",
+    "AgentReview": false,
+    "PaulDecision": "",
+    "PaulDecisionSummary": "",
+    "Comment": "",
+    "Application": {
+      "ID": "JP-2026",
+      "ApplicationDate": "2026-09-23T09:00:00Z"
+    },
+    "Person": {
+      "PersonSlug": "victor-ivanov-026",
+      "FullName": "Victor Ivanov"
+    },
+    "Job": {
+      "PaulsjobJobID": 12345,
+      "JobPositionTitle": "Backend Engineer"
+    }
+  },
+  {
+    "StepName": "Recruiting Day",
+    "StepCategory": "RecruitingDay",
+    "HumanReview": false,
+    "HumanDecision": "",
+    "AgentReview": false,
+    "PaulDecision": "",
+    "PaulDecisionSummary": "",
+    "Comment": "",
+    "Application": {
+      "ID": "JP-2027",
+      "ApplicationDate": "2026-07-01T09:00:00Z"
+    },
+    "Person": {
+      "PersonSlug": "peggy-clark-027",
+      "FullName": "Peggy Clark"
+    },
+    "Job": {
+      "PaulsjobJobID": 12347,
+      "JobPositionTitle": "Data Analyst"
+    }
+  },
+  {
+    "StepName": "Recruiting Day",
+    "StepCategory": "RecruitingDay",
+    "HumanReview": true,
+    "HumanDecision": "PositiveDecision",
+    "AgentReview": false,
+    "PaulDecision": "PositiveDecision",
+    "PaulDecisionSummary": "Relevant industry experience and a good culture fit.",
+    "Comment": "",
+    "Application": {
+      "ID": "JP-2028",
+      "ApplicationDate": "2026-08-06T09:00:00Z"
+    },
+    "Person": {
+      "PersonSlug": "frank-jones-028",
+      "FullName": "Frank Jones"
+    },
+    "Job": {
+      "PaulsjobJobID": 12348,
+      "JobPositionTitle": "Product Designer"
+    }
+  },
+  {
+    "StepName": "Prescreening Questions",
+    "StepCategory": "PreScreening",
+    "HumanReview": true,
+    "HumanDecision": "",
+    "AgentReview": false,
+    "PaulDecision": "",
+    "PaulDecisionSummary": "",
+    "Comment": "",
+    "Application": {
+      "ID": "JP-2029",
+      "ApplicationDate": "2026-09-11T09:00:00Z"
+    },
+    "Person": {
+      "PersonSlug": "judy-klein-029",
+      "FullName": "Judy Klein"
+    },
+    "Job": {
+      "PaulsjobJobID": 12345,
+      "JobPositionTitle": "Backend Engineer"
+    }
+  },
+  {
+    "StepName": "Human Interview",
+    "StepCategory": "HumanInterview",
+    "HumanReview": false,
+    "HumanDecision": "",
+    "AgentReview": true,
+    "PaulDecision": "OptOutNoAnswer",
+    "PaulDecisionSummary": "",
+    "Comment": "Candidate opted out.",
+    "Application": {
+      "ID": "JP-2030",
+      "ApplicationDate": "2026-07-16T09:00:00Z"
+    },
+    "Person": {
+      "PersonSlug": "peggy-gomez-030",
+      "FullName": "Peggy Gomez"
+    },
+    "Job": {
+      "PaulsjobJobID": 12348,
+      "JobPositionTitle": "Product Designer"
+    }
+  },
+  {
+    "StepName": "Prescreening Questions",
+    "StepCategory": "PreScreening",
+    "HumanReview": false,
+    "HumanDecision": "",
+    "AgentReview": true,
+    "PaulDecision": "NegativeDecision",
+    "PaulDecisionSummary": "Not available within the required start window.",
+    "Comment": "",
+    "Application": {
+      "ID": "JP-2031",
+      "ApplicationDate": "2026-08-21T09:00:00Z"
+    },
+    "Person": {
+      "PersonSlug": "liam-diaz-031",
+      "FullName": "Liam Diaz"
+    },
+    "Job": {
+      "PaulsjobJobID": 12348,
+      "JobPositionTitle": "Product Designer"
+    }
+  },
+  {
+    "StepName": "Rejected",
+    "StepCategory": "Rejected",
+    "HumanReview": false,
+    "HumanDecision": "",
+    "AgentReview": false,
+    "PaulDecision": "NegativeDecision",
+    "PaulDecisionSummary": "No relevant industry background.",
+    "Comment": "",
+    "Application": {
+      "ID": "JP-2032",
+      "ApplicationDate": "2026-09-26T09:00:00Z"
+    },
+    "Person": {
+      "PersonSlug": "mallory-owens-032",
+      "FullName": "Mallory Owens"
+    },
+    "Job": {
+      "PaulsjobJobID": 12349,
+      "JobPositionTitle": "Customer Success Manager"
+    }
+  },
+  {
+    "StepName": "AI Voice Interview",
+    "StepCategory": "AIVoiceInterview",
+    "HumanReview": false,
+    "HumanDecision": "",
+    "AgentReview": false,
+    "PaulDecision": "PositiveDecision",
+    "PaulDecisionSummary": "Relevant industry experience and a good culture fit.",
+    "Comment": "",
+    "Application": {
+      "ID": "JP-2033",
+      "ApplicationDate": "2026-07-04T09:00:00Z"
+    },
+    "Person": {
+      "PersonSlug": "nora-patel-033",
+      "FullName": "Nora Patel"
+    },
+    "Job": {
+      "PaulsjobJobID": 12348,
+      "JobPositionTitle": "Product Designer"
+    }
+  },
+  {
+    "StepName": "Pre-Screening",
+    "StepCategory": "PreScreening",
+    "HumanReview": false,
+    "HumanDecision": "",
+    "AgentReview": false,
+    "PaulDecision": "NegativeDecision",
+    "PaulDecisionSummary": "Salary expectation is well above the band.",
+    "Comment": "",
+    "Application": {
+      "ID": "JP-2034",
+      "ApplicationDate": "2026-08-09T09:00:00Z"
+    },
+    "Person": {
+      "PersonSlug": "olivia-evans-034",
+      "FullName": "Olivia Evans"
+    },
+    "Job": {
+      "PaulsjobJobID": 12346,
+      "JobPositionTitle": "Frontend Engineer"
+    }
+  },
+  {
+    "StepName": "AI Voice Interview",
+    "StepCategory": "AIVoiceInterview",
+    "HumanReview": false,
+    "HumanDecision": "",
+    "AgentReview": false,
+    "PaulDecision": "PositiveDecision",
+    "PaulDecisionSummary": "Exceeds the experience bar and available immediately.",
+    "Comment": "",
+    "Application": {
+      "ID": "JP-2035",
+      "ApplicationDate": "2026-09-14T09:00:00Z"
+    },
+    "Person": {
+      "PersonSlug": "sybil-adams-035",
+      "FullName": "Sybil Adams"
+    },
+    "Job": {
+      "PaulsjobJobID": 12347,
+      "JobPositionTitle": "Data Analyst"
+    }
+  },
+  {
+    "StepName": "AI Voice Interview",
+    "StepCategory": "AIVoiceInterview",
+    "HumanReview": true,
+    "HumanDecision": "",
+    "AgentReview": false,
+    "PaulDecision": "",
+    "PaulDecisionSummary": "",
+    "Comment": "",
+    "Application": {
+      "ID": "JP-2036",
+      "ApplicationDate": "2026-07-19T09:00:00Z"
+    },
+    "Person": {
+      "PersonSlug": "heidi-patel-036",
+      "FullName": "Heidi Patel"
+    },
+    "Job": {
+      "PaulsjobJobID": 12346,
+      "JobPositionTitle": "Frontend Engineer"
+    }
+  },
+  {
+    "StepName": "Rejected",
+    "StepCategory": "Rejected",
+    "HumanReview": false,
+    "HumanDecision": "",
+    "AgentReview": true,
+    "PaulDecision": "NegativeDecision",
+    "PaulDecisionSummary": "Location does not match the on-site requirement.",
+    "Comment": "",
+    "Application": {
+      "ID": "JP-2037",
+      "ApplicationDate": "2026-08-24T09:00:00Z"
+    },
+    "Person": {
+      "PersonSlug": "victor-adams-037",
+      "FullName": "Victor Adams"
+    },
+    "Job": {
+      "PaulsjobJobID": 12345,
+      "JobPositionTitle": "Backend Engineer"
+    }
+  },
+  {
+    "StepName": "Rejected",
+    "StepCategory": "Rejected",
+    "HumanReview": true,
+    "HumanDecision": "NegativeDecision",
+    "AgentReview": false,
+    "PaulDecision": "NegativeDecision",
+    "PaulDecisionSummary": "Salary expectation is well above the band.",
+    "Comment": "",
+    "Application": {
+      "ID": "JP-2038",
+      "ApplicationDate": "2026-09-02T09:00:00Z"
+    },
+    "Person": {
+      "PersonSlug": "carol-patel-038",
+      "FullName": "Carol Patel"
+    },
+    "Job": {
+      "PaulsjobJobID": 12345,
+      "JobPositionTitle": "Backend Engineer"
+    }
+  },
+  {
+    "StepName": "Human Interview",
+    "StepCategory": "HumanInterview",
+    "HumanReview": false,
+    "HumanDecision": "",
+    "AgentReview": false,
+    "PaulDecision": "",
+    "PaulDecisionSummary": "",
+    "Comment": "",
+    "Application": {
+      "ID": "JP-2039",
+      "ApplicationDate": "2026-07-07T09:00:00Z"
+    },
+    "Person": {
+      "PersonSlug": "eve-hughes-039",
+      "FullName": "Eve Hughes"
+    },
+    "Job": {
+      "PaulsjobJobID": 12346,
+      "JobPositionTitle": "Frontend Engineer"
+    }
+  },
+  {
+    "StepName": "Rejected",
+    "StepCategory": "Rejected",
+    "HumanReview": false,
+    "HumanDecision": "",
+    "AgentReview": false,
+    "PaulDecision": "NegativeDecision",
+    "PaulDecisionSummary": "Weak communication during the screening call.",
+    "Comment": "",
+    "Application": {
+      "ID": "JP-2040",
+      "ApplicationDate": "2026-08-12T09:00:00Z"
+    },
+    "Person": {
+      "PersonSlug": "victor-meyer-040",
+      "FullName": "Victor Meyer"
+    },
+    "Job": {
+      "PaulsjobJobID": 12348,
+      "JobPositionTitle": "Product Designer"
+    }
+  },
+  {
+    "StepName": "Human Interview",
+    "StepCategory": "HumanInterview",
+    "HumanReview": false,
+    "HumanDecision": "",
+    "AgentReview": false,
+    "PaulDecision": "PositiveDecision",
+    "PaulDecisionSummary": "Exceeds the experience bar and available immediately.",
+    "Comment": "",
+    "Application": {
+      "ID": "JP-2041",
+      "ApplicationDate": "2026-09-17T09:00:00Z"
+    },
+    "Person": {
+      "PersonSlug": "peggy-patel-041",
+      "FullName": "Peggy Patel"
+    },
+    "Job": {
+      "PaulsjobJobID": 12345,
+      "JobPositionTitle": "Backend Engineer"
+    }
+  },
+  {
+    "StepName": "Pre-Screening",
+    "StepCategory": "PreScreening",
+    "HumanReview": true,
+    "HumanDecision": "",
+    "AgentReview": false,
+    "PaulDecision": "OptOutDeclineToTalkWithAI",
+    "PaulDecisionSummary": "",
+    "Comment": "Candidate opted out.",
+    "Application": {
+      "ID": "JP-2042",
+      "ApplicationDate": "2026-07-22T09:00:00Z"
+    },
+    "Person": {
+      "PersonSlug": "rupert-meyer-042",
+      "FullName": "Rupert Meyer"
+    },
+    "Job": {
+      "PaulsjobJobID": 12347,
+      "JobPositionTitle": "Data Analyst"
+    }
+  },
+  {
+    "StepName": "Rejected",
+    "StepCategory": "Rejected",
+    "HumanReview": true,
+    "HumanDecision": "PositiveDecision",
+    "AgentReview": true,
+    "PaulDecision": "NegativeDecision",
+    "PaulDecisionSummary": "Weak communication during the screening call.",
+    "Comment": "",
+    "Application": {
+      "ID": "JP-2043",
+      "ApplicationDate": "2026-08-27T09:00:00Z"
+    },
+    "Person": {
+      "PersonSlug": "mallory-ivanov-043",
+      "FullName": "Mallory Ivanov"
+    },
+    "Job": {
+      "PaulsjobJobID": 12349,
+      "JobPositionTitle": "Customer Success Manager"
+    }
+  },
+  {
+    "StepName": "AI Voice Interview",
+    "StepCategory": "AIVoiceInterview",
+    "HumanReview": false,
+    "HumanDecision": "",
+    "AgentReview": false,
+    "PaulDecision": "",
+    "PaulDecisionSummary": "",
+    "Comment": "",
+    "Application": {
+      "ID": "JP-2044",
+      "ApplicationDate": "2026-09-05T09:00:00Z"
+    },
+    "Person": {
+      "PersonSlug": "heidi-jones-044",
+      "FullName": "Heidi Jones"
+    },
+    "Job": {
+      "PaulsjobJobID": 12349,
+      "JobPositionTitle": "Customer Success Manager"
+    }
+  },
+  {
+    "StepName": "Prescreening Questions",
+    "StepCategory": "PreScreening",
+    "HumanReview": true,
+    "HumanDecision": "",
+    "AgentReview": false,
+    "PaulDecision": "",
+    "PaulDecisionSummary": "",
+    "Comment": "",
+    "Application": {
+      "ID": "JP-2045",
+      "ApplicationDate": "2026-07-10T09:00:00Z"
+    },
+    "Person": {
+      "PersonSlug": "liam-fisher-045",
+      "FullName": "Liam Fisher"
+    },
+    "Job": {
+      "PaulsjobJobID": 12346,
+      "JobPositionTitle": "Frontend Engineer"
+    }
+  },
+  {
+    "StepName": "Prescreening Questions",
+    "StepCategory": "PreScreening",
+    "HumanReview": true,
+    "HumanDecision": "NegativeDecision",
+    "AgentReview": false,
+    "PaulDecision": "NegativeDecision",
+    "PaulDecisionSummary": "Salary expectation is well above the band.",
+    "Comment": "",
+    "Application": {
+      "ID": "JP-2046",
+      "ApplicationDate": "2026-08-15T09:00:00Z"
+    },
+    "Person": {
+      "PersonSlug": "wendy-jones-046",
+      "FullName": "Wendy Jones"
+    },
+    "Job": {
+      "PaulsjobJobID": 12345,
+      "JobPositionTitle": "Backend Engineer"
+    }
+  },
+  {
+    "StepName": "Human Interview",
+    "StepCategory": "HumanInterview",
+    "HumanReview": true,
+    "HumanDecision": "",
+    "AgentReview": true,
+    "PaulDecision": "",
+    "PaulDecisionSummary": "",
+    "Comment": "",
+    "Application": {
+      "ID": "JP-2047",
+      "ApplicationDate": "2026-09-20T09:00:00Z"
+    },
+    "Person": {
+      "PersonSlug": "alice-jones-047",
+      "FullName": "Alice Jones"
+    },
+    "Job": {
+      "PaulsjobJobID": 12348,
+      "JobPositionTitle": "Product Designer"
+    }
+  },
+  {
+    "StepName": "Human Interview",
+    "StepCategory": "HumanInterview",
+    "HumanReview": false,
+    "HumanDecision": "",
+    "AgentReview": false,
+    "PaulDecision": "",
+    "PaulDecisionSummary": "",
+    "Comment": "",
+    "Application": {
+      "ID": "JP-2048",
+      "ApplicationDate": "2026-07-25T09:00:00Z"
+    },
+    "Person": {
+      "PersonSlug": "sybil-diaz-048",
+      "FullName": "Sybil Diaz"
+    },
+    "Job": {
+      "PaulsjobJobID": 12345,
+      "JobPositionTitle": "Backend Engineer"
+    }
+  },
+  {
+    "StepName": "Recruiting Day",
+    "StepCategory": "RecruitingDay",
+    "HumanReview": false,
+    "HumanDecision": "",
+    "AgentReview": false,
+    "PaulDecision": "PositiveDecision",
+    "PaulDecisionSummary": "Meets all mandatory requirements; strong technical background.",
+    "Comment": "",
+    "Application": {
+      "ID": "JP-2049",
+      "ApplicationDate": "2026-08-03T09:00:00Z"
+    },
+    "Person": {
+      "PersonSlug": "victor-novak-049",
+      "FullName": "Victor Novak"
+    },
+    "Job": {
+      "PaulsjobJobID": 12347,
+      "JobPositionTitle": "Data Analyst"
+    }
+  },
+  {
+    "StepName": "Rejected",
+    "StepCategory": "Rejected",
+    "HumanReview": false,
+    "HumanDecision": "",
+    "AgentReview": false,
+    "PaulDecision": "NegativeDecision",
+    "PaulDecisionSummary": "Salary expectation is well above the band.",
+    "Comment": "",
+    "Application": {
+      "ID": "JP-2050",
+      "ApplicationDate": "2026-09-08T09:00:00Z"
+    },
+    "Person": {
+      "PersonSlug": "zane-owens-050",
+      "FullName": "Zane Owens"
+    },
+    "Job": {
+      "PaulsjobJobID": 12345,
+      "JobPositionTitle": "Backend Engineer"
+    }
+  },
+  {
+    "StepName": "Prescreening Questions",
+    "StepCategory": "PreScreening",
+    "HumanReview": false,
+    "HumanDecision": "",
+    "AgentReview": false,
+    "PaulDecision": "",
+    "PaulDecisionSummary": "",
+    "Comment": "",
+    "Application": {
+      "ID": "JP-2051",
+      "ApplicationDate": "2026-07-13T09:00:00Z"
+    },
+    "Person": {
+      "PersonSlug": "eve-clark-051",
+      "FullName": "Eve Clark"
+    },
+    "Job": {
+      "PaulsjobJobID": 12345,
+      "JobPositionTitle": "Backend Engineer"
+    }
+  },
+  {
+    "StepName": "Rejected",
+    "StepCategory": "Rejected",
+    "HumanReview": false,
+    "HumanDecision": "",
+    "AgentReview": false,
+    "PaulDecision": "NegativeDecision",
+    "PaulDecisionSummary": "No relevant industry background.",
+    "Comment": "",
+    "Application": {
+      "ID": "JP-2052",
+      "ApplicationDate": "2026-08-18T09:00:00Z"
+    },
+    "Person": {
+      "PersonSlug": "rupert-diaz-052",
+      "FullName": "Rupert Diaz"
+    },
+    "Job": {
+      "PaulsjobJobID": 12348,
+      "JobPositionTitle": "Product Designer"
+    }
+  },
+  {
+    "StepName": "Pre-Screening",
+    "StepCategory": "PreScreening",
+    "HumanReview": false,
+    "HumanDecision": "",
+    "AgentReview": false,
+    "PaulDecision": "NegativeDecision",
+    "PaulDecisionSummary": "Not available within the required start window.",
+    "Comment": "",
+    "Application": {
+      "ID": "JP-2053",
+      "ApplicationDate": "2026-09-23T09:00:00Z"
+    },
+    "Person": {
+      "PersonSlug": "wendy-ivanov-053",
+      "FullName": "Wendy Ivanov"
+    },
+    "Job": {
+      "PaulsjobJobID": 12345,
+      "JobPositionTitle": "Backend Engineer"
+    }
+  },
+  {
+    "StepName": "Pre-Screening",
+    "StepCategory": "PreScreening",
+    "HumanReview": true,
+    "HumanDecision": "",
+    "AgentReview": false,
+    "PaulDecision": "",
+    "PaulDecisionSummary": "",
+    "Comment": "",
+    "Application": {
+      "ID": "JP-2054",
+      "ApplicationDate": "2026-07-01T09:00:00Z"
+    },
+    "Person": {
+      "PersonSlug": "liam-ivanov-054",
+      "FullName": "Liam Ivanov"
+    },
+    "Job": {
+      "PaulsjobJobID": 12349,
+      "JobPositionTitle": "Customer Success Manager"
+    }
+  },
+  {
+    "StepName": "Rejected",
+    "StepCategory": "Rejected",
+    "HumanReview": false,
+    "HumanDecision": "",
+    "AgentReview": false,
+    "PaulDecision": "NegativeDecision",
+    "PaulDecisionSummary": "Not available within the required start window.",
+    "Comment": "",
+    "Application": {
+      "ID": "JP-2055",
+      "ApplicationDate": "2026-08-06T09:00:00Z"
+    },
+    "Person": {
+      "PersonSlug": "frank-klein-055",
+      "FullName": "Frank Klein"
+    },
+    "Job": {
+      "PaulsjobJobID": 12348,
+      "JobPositionTitle": "Product Designer"
+    }
+  },
+  {
+    "StepName": "Pre-Screening",
+    "StepCategory": "PreScreening",
+    "HumanReview": false,
+    "HumanDecision": "",
+    "AgentReview": false,
+    "PaulDecision": "NegativeDecision",
+    "PaulDecisionSummary": "Salary expectation is well above the band.",
+    "Comment": "",
+    "Application": {
+      "ID": "JP-2056",
+      "ApplicationDate": "2026-09-11T09:00:00Z"
+    },
+    "Person": {
+      "PersonSlug": "uma-owens-056",
+      "FullName": "Uma Owens"
+    },
+    "Job": {
+      "PaulsjobJobID": 12348,
+      "JobPositionTitle": "Product Designer"
+    }
+  },
+  {
+    "StepName": "Pre-Screening",
+    "StepCategory": "PreScreening",
+    "HumanReview": false,
+    "HumanDecision": "",
+    "AgentReview": false,
+    "PaulDecision": "PositiveDecision",
+    "PaulDecisionSummary": "Excellent communication and clear motivation for the role.",
+    "Comment": "",
+    "Application": {
+      "ID": "JP-2057",
+      "ApplicationDate": "2026-07-16T09:00:00Z"
+    },
+    "Person": {
+      "PersonSlug": "rupert-patel-057",
+      "FullName": "Rupert Patel"
+    },
+    "Job": {
+      "PaulsjobJobID": 12345,
+      "JobPositionTitle": "Backend Engineer"
+    }
+  },
+  {
+    "StepName": "Recruiting Day",
+    "StepCategory": "RecruitingDay",
+    "HumanReview": false,
+    "HumanDecision": "",
+    "AgentReview": false,
+    "PaulDecision": "PositiveDecision",
+    "PaulDecisionSummary": "Exceeds the experience bar and available immediately.",
+    "Comment": "",
+    "Application": {
+      "ID": "JP-2058",
+      "ApplicationDate": "2026-08-21T09:00:00Z"
+    },
+    "Person": {
+      "PersonSlug": "eve-patel-058",
+      "FullName": "Eve Patel"
+    },
+    "Job": {
+      "PaulsjobJobID": 12347,
+      "JobPositionTitle": "Data Analyst"
+    }
+  },
+  {
+    "StepName": "Recruiting Day",
+    "StepCategory": "RecruitingDay",
+    "HumanReview": false,
+    "HumanDecision": "",
+    "AgentReview": false,
+    "PaulDecision": "PositiveDecision",
+    "PaulDecisionSummary": "Exceeds the experience bar and available immediately.",
+    "Comment": "",
+    "Application": {
+      "ID": "JP-2059",
+      "ApplicationDate": "2026-09-26T09:00:00Z"
+    },
+    "Person": {
+      "PersonSlug": "alice-jones-059",
+      "FullName": "Alice Jones"
+    },
+    "Job": {
+      "PaulsjobJobID": 12347,
+      "JobPositionTitle": "Data Analyst"
+    }
+  },
+  {
+    "StepName": "AI Voice Interview",
+    "StepCategory": "AIVoiceInterview",
+    "HumanReview": true,
+    "HumanDecision": "PositiveDecision",
+    "AgentReview": false,
+    "PaulDecision": "PositiveDecision",
+    "PaulDecisionSummary": "Exceeds the experience bar and available immediately.",
+    "Comment": "",
+    "Application": {
+      "ID": "JP-2060",
+      "ApplicationDate": "2026-07-04T09:00:00Z"
+    },
+    "Person": {
+      "PersonSlug": "liam-novak-060",
+      "FullName": "Liam Novak"
+    },
+    "Job": {
+      "PaulsjobJobID": 12345,
+      "JobPositionTitle": "Backend Engineer"
+    }
+  }
+]
